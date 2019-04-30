@@ -59,11 +59,7 @@
         function makeApiCall() {
             // Make an API call to the People API, and print the user's given name.
 
-            var making = gapi.client.calendar.calendars.insert({
-                "resource": {
-                    "summary": "TesztNaptár"
-                }
-            });
+            var making = summaryCallback();
 
             return gapi.client.calendar.events.list({
                 "calendarId": "ninjonupdate@gmail.com"
@@ -75,6 +71,13 @@
 
                 },
                     function (err) { console.error("Execute error", err); });
+        }
+        function summaryCallback(){
+           return gapi.client.calendar.calendars.insert({
+                "resource": {
+                    "summary": "TesztNaptár"
+                }
+            });
         }
     </script>
     <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()"
