@@ -4,7 +4,7 @@
 
 <body>
     <script type="text/javascript">
-    var statusText="";
+        var statusText = "";
         function handleClientLoad() {
             // Loads the client library and the auth2 library together for efficiency.
             // Loading the auth2 library is optional here since `gapi.client.init` function will load
@@ -34,7 +34,7 @@
             // If the signin status is changed to signedIn, we make an API call.
             if (isSignedIn) {
                 loadClient();
-                statusText +="Bejelentkezve!<br>";
+                statusText += "Bejelentkezve!<br>";
             }
         }
 
@@ -55,7 +55,7 @@
                     statusText += "CalendarAPI betöltve!";
                     //makeApiCall();
                 },
-                    function (err) { 
+                    function (err) {
                         console.error("Error loading GAPI client for API", err);
                         statusText += "CalendarAPI Hiba!";
                     });
@@ -71,7 +71,7 @@
                 .then(function (response) {
                     // Handle the results here (response.result has the parsed body).
                     console.log("Response", response);
-                    
+
 
                 },
                     function (err) { console.error("Execute error", err); });
@@ -86,42 +86,44 @@
                 .then(function (response) {
                     // Handle the results here (response.result has the parsed body).
                     console.log("Response", response.result);
+                    makeApiCall(response.result);
                 },
                     function (err) { console.error("Execute error", err); });
-                    makeApiCall();
+
         }
-        window.document.onload = function(){
-            document.getElementById("notification").innerHTML= statusText;
-        };
-        
-    
+
+        document.addEventListener("DOMContentLoaded", function (event) {
+            document.getElementById("notification").innerHTML =" statusText";
+        });
+
+
     </script>
     <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()"
         onreadystatechange="if (this.readyState === 'complete') this.onload()">
         </script>
-  <div id="notification"></div>
+    <div id="notification"></div>
     <button id="signin-button" onclick="handleSignInClick()">Sign In</button>
     <button id="signout-button" onclick="handleSignOutClick()">Sign Out</button>
-    
+
     <form id="frm1">
         Add meg a naptár nevét: <input type="text" name="fname" value=""><br>
         <input type="submit" onclick="myFunction()" value="Létrehozás">
-      </form> 
+    </form>
 
-      
 
-      <script>
-         
+
+    <script>
+
         function myFunction() {
-          var x = document.getElementById("frm1");
-          var text = "";
-          var i;
-          for (i = 0; i < x.length-1 ;i++) {
-            text += x.elements[i].value;
-          }
-          summaryCallback(text);
+            var x = document.getElementById("frm1");
+            var text = "";
+            var i;
+            for (i = 0; i < x.length - 1; i++) {
+                text += x.elements[i].value;
+            }
+            summaryCallback(text);
         }
-        </script>
+    </script>
 
 
 
