@@ -18,14 +18,17 @@
         </script>
 
     <div id="notification"></div>
-    <button id="signin-button" onclick="handleSignInClick()">Sign In</button>
-    <button id="signout-button" onclick="handleSignOutClick()">Sign Out</button>
+    <div id="content">
+        <button id="signin-button" onclick="handleSignInClick()">Sign In</button>
+        <button id="signout-button" onclick="handleSignOutClick()">Sign Out</button>
 
-    <form id="frm1" onsubmit="return false">
-        Add meg a naptár nevét: <input type="text" name="fname" value=""><br>
-        <input type="submit" onclick="submitCalendar()" value="Létrehozás">
-    </form>
-
+        <h1>Új Naptár létrehozása vagy válasz egyet a lenti listából:</h1>
+        <form id="frm1" onsubmit="return false">
+            Add meg a naptár nevét: <input type="text" name="fname" value=""><br>
+            <input type="submit" onclick="submitCalendar()" value="Létrehozás">
+        </form>
+        <div id="listCalendar"></div>
+    </div>
 
 
     <script>

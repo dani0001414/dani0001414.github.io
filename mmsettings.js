@@ -1,4 +1,7 @@
-var statusText = "";
+//MobilMenetrend
+var cookeUserid = getCookie(policyAgreementCookie);
+
+
 function handleClientLoad() {
     // Loads the client library and the auth2 library together for efficiency.
     // Loading the auth2 library is optional here since `gapi.client.init` function will load
@@ -32,6 +35,12 @@ function updateSigninStatus(isSignedIn) {
 
 
         document.getElementById("notification").innerHTML = "Bejelentkezve " + user + " néven!";
+        if(cookieUserid != 0) {
+            document.getElementById("content").innerHTML =   generateList();
+            calendarEvents(cookieUserid);
+        } else {
+            document.getElementById("listCalendar").innerHTML = generateList();
+        }
     } else {
         document.getElementById("notification").innerHTML = "Nem vagy bejelentkezve!";
     }
@@ -46,6 +55,8 @@ function handleSignInClick(event) {
 function handleSignOutClick(event) {
     gapi.auth2.getAuthInstance().signOut();
 }
+
+
 
 function loadClient() {
     return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest")
@@ -87,9 +98,10 @@ function calendarCreator(calendarName) {
         .then(function (response) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response", response.result);
-            document.getElementById("notification").innerHTML = "Naptár Létrehozva " + response.result.summary + " néven!<br>A beállító fájlban ezt az id-t kell beírnod: " + response.result.id;
-            setPublic(response.result.id)
+            document.getElementById("content").innerHTML = "Naptár Létrehozva " + response.result.summary + " néven!<br>A beállító fájlban ezt az id-t kell beírnod: " + response.result.id+"<br>A lapot frissítve mostmár elérheted az események szerkesztését.";
+            setPublic(response.result.id);
             calendarEvents(response.result.id);
+            createcookie('userid', response.result.id, 365);
         },
             function (err) {
                 console.error("Execute error", err);
@@ -122,5 +134,62 @@ function submitCalendar() {
         text += x.elements[i].value;
     }
     calendarCreator(text);
-    document.getElementById("notification").innerHTML = "Töltődik... Ne zárd be az ablakot!";
+    document.getElementById("content").innerHTML = "Töltődik... Ne zárd be az ablakot!";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = document.cookie;
+    var ca = decodedCookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return 0;
+}
+
+function createcookie(name, value, days, banner) {
+    var expires;
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toGMTString();
+    }
+    else {
+        expires = "";
+    }
+    document.cookie = name + "=" + value + expires;
+
+ /*   if (banner == "banner") { document.getElementById("myCookie").style.display = 'none'; } else if ((name == policyAgreementCookie) | (name == themeCookie)) { modal_open("cookie_settings"); }
+    //*Téma választó cookie létrehozásával egyben át is váltjuk az általa képviselt kinézetre
+    if (name == themeCookie) {
+        if (value == "dark") {
+            if (internetStatus == "online") { Dark(eventsLength); } else { Dark(offlineLength); }
+        }
+        if (value == "light") {
+            if (internetStatus == "online") { Light(eventsLength); } else { Light(offlineLength); }
+        }
+        modal_open("cookie_settings");
+    }
+    */
+}
+function calendarListGet(){
+     gapi.client.calendar.calendarList.list({})
+    .then(function(response) {
+            // Handle the results here (response.result has the parsed body).
+            console.log("Response", response);
+            return response.result;
+          },
+          function(err) { console.error("Execute error", err); });
+}
+
+function generateList(){
+    var listDiv = document.getElementById("listCalendar");
+    var array = calendarListGet();
+    return array;
 }
