@@ -62,10 +62,10 @@ function loadClient() {
 
             if(cookieUserid != 0) {
                 calendarListGenerate();
-                
+                calendarEvents(cookieUserid);
             } else {
                 calendarListGenerate();
-                calendarEvents(cookieUserid);
+                
             }
         },
             function (err) {
@@ -191,6 +191,11 @@ function calendarListGenerate(){
             var selectList = document.createElement("select");
             selectList.id = "listc";
             listDiv.appendChild(selectList);
+            var buttonListSelect = document.createElement("button");
+            buttonListSelect.type = "button";
+            buttonListSelect.onclick="ListSelectIndex()";
+            buttonListSelect.text="SelectCalendar";
+            
 
             //create and append options
             for (var i=0; i<array.length; i++)
@@ -205,6 +210,8 @@ function calendarListGenerate(){
           function(err) { console.error("Execute error", err); });
 }
 
-function generateList(){
-
-}
+function ListSelectIndex() {
+    var x = document.getElementById("mySelect").selectedIndex;
+    var y = document.getElementById("mySelect").options;
+    alert("Index: " + y[x].index + " is " + y[x].text);
+  }
