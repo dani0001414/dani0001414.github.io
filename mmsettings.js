@@ -180,18 +180,30 @@ function createcookie(name, value, days, banner) {
     }
     */
 }
-function calendarListGet(){
+function calendarListGenerate(){
    return gapi.client.calendar.calendarList.list({})
     .then(function(response) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response",  response.result);
-           
+            var listDiv = document.getElementById("listCalendar");
+            var array = response.result.items;
+            var selectList = document.createElement("select");
+            selectList.id = "listc";
+            listDiv.appendChild(selectList);
+
+            //create and append options
+            for (var i=0; i<array.length; i++)
+                {
+                    var option = document.createElement("option");
+                    option.value =array[i].summary;
+                    option.text =array[i].summary;
+                    selectList.appendChild(option);
+                }
+
           },
           function(err) { console.error("Execute error", err); });
 }
 
 function generateList(){
-    var listDiv = document.getElementById("listCalendar");
-    var array = calendarListGet();
-    return array[0].summary;
+
 }
