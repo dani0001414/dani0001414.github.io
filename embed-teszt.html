@@ -48,22 +48,31 @@
 
         function loadClient() {
             return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest")
-                .then(function () { console.log("GAPI client loaded for API"); },
-                    function (err) { console.error("Error loading GAPI client for API", err); });
+                .then(function () {
+                    console.log("GAPI client loaded for API");
                     makeApiCall();
+                },
+                    function (err) { console.error("Error loading GAPI client for API", err); });
+
         }
 
         function makeApiCall() {
             // Make an API call to the People API, and print the user's given name.
 
-           
-            
+            var making = gapi.client.calendar.calendars.insert({
+                "resource": {
+                    "summary": "TesztNaptár"
+                }
+            });
+
             return gapi.client.calendar.events.list({
                 "calendarId": "ninjonupdate@gmail.com"
             })
                 .then(function (response) {
                     // Handle the results here (response.result has the parsed body).
                     console.log("Response", response);
+                    console.log(making);
+
                 },
                     function (err) { console.error("Execute error", err); });
         }
