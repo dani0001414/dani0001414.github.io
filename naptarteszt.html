@@ -39,8 +39,8 @@
             // If the signin status is changed to signedIn, we make an API call.
             if (isSignedIn) {
                 loadClient();
-                statusText += "Bejelentkezve!<br>";
-                document.getElementById("notification").innerHTML = statusText;
+                var user = GoogleAuth.currentUser.get();
+                document.getElementById("notification").innerHTML = "Bejelentkezve "+user+" néven!";
             } else {
                 document.getElementById("notification").innerHTML = "Nem vagy bejelentkezve!";
             }
@@ -60,18 +60,18 @@
             return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest")
                 .then(function () {
                     console.log("GAPI client loaded for API");
-                    statusText += "CalendarAPI betöltve!";
-                    //makeApiCall();
+                    
+                    //calendarEvents();
                 },
                     function (err) {
                         console.error("Error loading GAPI client for API", err);
-                        statusText += "CalendarAPI Hiba!";
+                        
                         document.getElementById("notification").innerHTML = "Hiba történt!";
                     });
 
         }
 
-        function makeApiCall(calID) {
+        function calendarEvents(calID) {
             // Make an API call to the People API, and print the user's given name.
 
             return gapi.client.calendar.events.list({
@@ -86,7 +86,7 @@
                     function (err) { console.error("Execute error", err); });
         }
 
-        function summaryCallback(calendarName) {
+        function calendarCreator(calendarName) {
             return gapi.client.calendar.calendars.insert({
                 "resource": {
                     "summary": calendarName,
@@ -98,11 +98,11 @@
                     console.log("Response", response.result);
                     document.getElementById("notification").innerHTML = "Naptár Létrehozva " + response.result.summary + " néven!<br>A beállító fájlban ezt az id-t kell beírnod: " + response.result.id;
                     setPublic(response.result.id)
-                    makeApiCall(response.result.id);
+                    calendarEvents(response.result.id);
                 },
                     function (err) {
                         console.error("Execute error", err);
-                        document.getElementById("notification").innerHTML = "Hibatörtént!";
+                        document.getElementById("notification").innerHTML = "Először be kell lépned!";
                     });
         }
         function setPublic(calID) {
@@ -121,14 +121,12 @@
                 },
                     function (err) { console.error("Execute error", err); });
         }
-
-
-
-
     </script>
+
     <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()"
         onreadystatechange="if (this.readyState === 'complete') this.onload()">
         </script>
+
     <div id="notification"></div>
     <button id="signin-button" onclick="handleSignInClick()">Sign In</button>
     <button id="signout-button" onclick="handleSignOutClick()">Sign Out</button>
@@ -149,7 +147,7 @@
             for (i = 0; i < x.length - 1; i++) {
                 text += x.elements[i].value;
             }
-            summaryCallback(text);
+            calendarCreator(text);
             document.getElementById("notification").innerHTML = "Töltődik... Ne zárd be az ablakot!";
         }
     </script>
