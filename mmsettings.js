@@ -62,7 +62,7 @@ function loadClient() {
             //calendarEvents();
 
             if(cookieUserid != 0) {
-                document.getElementById("notification").innerHTML = "Hiba történt!";
+                document.getElementById("notification").innerHTML = "Kiválasztott Naptár Eseményei JSON-ban(Fejlesztés Alatt)!";
                // calendarListGenerate();
                 calendarEvents(cookieUserid);
             } else {
