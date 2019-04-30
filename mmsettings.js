@@ -193,8 +193,8 @@ function calendarListGenerate(){
             listDiv.appendChild(selectList);
             var buttonListSelect = document.createElement("button");
             buttonListSelect.type = "button";
-            buttonListSelect.onclick="ListSelectIndex()";
-            buttonListSelect.text="SelectCalendar";
+            buttonListSelect.setAttribute('OnClick',"ListSelectIndex()");
+            buttonListSelect.innerHTML="SelectCalendar";
             listDiv.appendChild(buttonListSelect);
             
 
