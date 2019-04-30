@@ -91,7 +91,9 @@ function calendarEvents(calID) {
             document.getElementById("content").innerHTML = JSON.stringify(calendarEventsList.items);
 
         },
-            function (err) { console.error("Execute error", err); });
+            function (err) { 
+                document.getElementById("notification").innerHTML = "A kiválasztott naptár időközben törlődött. Ellenőrizd a listában vagy a Google Naptár szolgáltatásán belül."
+             });
 }
 
 function calendarCreator(calendarName) {
