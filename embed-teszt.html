@@ -27,7 +27,7 @@
                 updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
             });
         }
-        
+
         function updateSigninStatus(isSignedIn) {
             // When signin status changes, this function is called.
             // If the signin status is changed to signedIn, we make an API call.
@@ -72,12 +72,17 @@
                 },
                     function (err) { console.error("Execute error", err); });
         }
-        function summaryCallback(){
-           return gapi.client.calendar.calendars.insert({
+        function summaryCallback() {
+            return gapi.client.calendar.calendars.insert({
                 "resource": {
                     "summary": "TesztNaptár"
                 }
-            });
+            })
+                .then(function (response) {
+                    // Handle the results here (response.result has the parsed body).
+                    console.log("Response", response.result);
+                },
+                    function (err) { console.error("Execute error", err); });
         }
     </script>
     <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()"
