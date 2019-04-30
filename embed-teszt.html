@@ -59,7 +59,7 @@
         function makeApiCall() {
             // Make an API call to the People API, and print the user's given name.
 
-            var making = summaryCallback();
+            
 
             return gapi.client.calendar.events.list({
                 "calendarId": "ninjonupdate@gmail.com"
@@ -67,15 +67,15 @@
                 .then(function (response) {
                     // Handle the results here (response.result has the parsed body).
                     console.log("Response", response);
-                    console.log(making);
+                    summaryCallback();
 
                 },
                     function (err) { console.error("Execute error", err); });
         }
-        function summaryCallback() {
+        function summaryCallback(calendarName) {
             return gapi.client.calendar.calendars.insert({
                 "resource": {
-                    "summary": "TesztNaptár"
+                    "summary": calendarName
                 }
             })
                 .then(function (response) {
@@ -88,8 +88,31 @@
     <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()"
         onreadystatechange="if (this.readyState === 'complete') this.onload()">
         </script>
+
     <button id="signin-button" onclick="handleSignInClick()">Sign In</button>
     <button id="signout-button" onclick="handleSignOutClick()">Sign Out</button>
+    
+    <form id="frm1">
+        Add meg a naptár nevét: <input type="text" name="fname" value=""><br>
+        <input type="submit" onclick="myFunction()" value="Létrehozás">
+      </form> 
+
+      
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("frm1");
+          var text = "";
+          var i;
+          for (i = 0; i < x.length ;i++) {
+            text += x.elements[i].value + "<br>";
+          }
+          summaryCallback(text);
+        }
+        </script>
+
+
+
 </body>
 
 </html>
