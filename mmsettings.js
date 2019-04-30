@@ -1,5 +1,5 @@
 //MobilMenetrend
-var cookeUserid = getCookie("userid");
+var cookieUserid = getCookie("userid");
 
 
 function handleClientLoad() {
