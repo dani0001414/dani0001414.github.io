@@ -4,6 +4,7 @@
 
 <body>
     <script type="text/javascript">
+    var statusText="";
         function handleClientLoad() {
             // Loads the client library and the auth2 library together for efficiency.
             // Loading the auth2 library is optional here since `gapi.client.init` function will load
@@ -33,6 +34,7 @@
             // If the signin status is changed to signedIn, we make an API call.
             if (isSignedIn) {
                 loadClient();
+                statusText +="Bejelentkezve!<br>";
             }
         }
 
@@ -50,16 +52,18 @@
             return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest")
                 .then(function () {
                     console.log("GAPI client loaded for API");
-                    makeApiCall();
+                    statusText += "CalendarAPI betöltve!";
+                    //makeApiCall();
                 },
-                    function (err) { console.error("Error loading GAPI client for API", err); });
+                    function (err) { 
+                        console.error("Error loading GAPI client for API", err);
+                        statusText += "CalendarAPI Hiba!";
+                    });
 
         }
 
         function makeApiCall() {
             // Make an API call to the People API, and print the user's given name.
-
-            
 
             return gapi.client.calendar.events.list({
                 "calendarId": "ninjonupdate@gmail.com"
@@ -75,7 +79,8 @@
         function summaryCallback(calendarName) {
             return gapi.client.calendar.calendars.insert({
                 "resource": {
-                    "summary": calendarName
+                    "summary": calendarName,
+                    "timeZone": "Europe/Budapest"
                 }
             })
                 .then(function (response) {
@@ -83,12 +88,14 @@
                     console.log("Response", response.result);
                 },
                     function (err) { console.error("Execute error", err); });
+                    makeApiCall();
         }
+        
     </script>
     <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()"
         onreadystatechange="if (this.readyState === 'complete') this.onload()">
         </script>
-
+  <div id="notification"></div>
     <button id="signin-button" onclick="handleSignInClick()">Sign In</button>
     <button id="signout-button" onclick="handleSignOutClick()">Sign Out</button>
     
@@ -100,6 +107,7 @@
       
 
       <script>
+          document.getElementById("notification").innerHTML= statusText;
         function myFunction() {
           var x = document.getElementById("frm1");
           var text = "";
