@@ -195,6 +195,7 @@ function calendarListGenerate(){
             buttonListSelect.type = "button";
             buttonListSelect.onclick="ListSelectIndex()";
             buttonListSelect.text="SelectCalendar";
+            listDiv.appendChild(buttonListSelect);
             
 
             //create and append options
