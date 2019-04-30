@@ -216,6 +216,6 @@ function calendarListGenerate(){
 
 function ListSelectIndex() {
     var x = document.getElementById("listc").selectedIndex;
-    var y = document.getElementById("listc").options;
-    alert("Naptár: " + y[x].index + " ID: " + listCalendarArray[x].summary);
+    
+    alert("Naptár: " + listCalendarArray[x].summary + " ID: " + listCalendarArray[x].id);
   }
