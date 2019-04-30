@@ -61,10 +61,11 @@ function loadClient() {
             //calendarEvents();
 
             if(cookieUserid != 0) {
-                document.getElementById("content").innerHTML =   generateList();
-                calendarEvents(cookieUserid);
+                calendarListGenerate();
+                
             } else {
-                document.getElementById("listCalendar").innerHTML = generateList();
+                calendarListGenerate();
+                calendarEvents(cookieUserid);
             }
         },
             function (err) {
