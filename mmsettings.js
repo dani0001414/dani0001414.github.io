@@ -112,3 +112,15 @@ function setPublic(calID) {
         },
             function (err) { console.error("Execute error", err); });
 }
+
+
+function submitCalendar() {
+    var x = document.getElementById("frm1");
+    var text = "";
+    var i;
+    for (i = 0; i < x.length - 1; i++) {
+        text += x.elements[i].value;
+    }
+    calendarCreator(text);
+    document.getElementById("notification").innerHTML = "Töltődik... Ne zárd be az ablakot!";
+}

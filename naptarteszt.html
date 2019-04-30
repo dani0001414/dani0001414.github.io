@@ -23,23 +23,13 @@
 
     <form id="frm1" onsubmit="return false">
         Add meg a naptár nevét: <input type="text" name="fname" value=""><br>
-        <input type="submit" onclick="myFunction()" value="Létrehozás">
+        <input type="submit" onclick="submitCalendar()" value="Létrehozás">
     </form>
 
 
 
     <script>
 
-        function myFunction() {
-            var x = document.getElementById("frm1");
-            var text = "";
-            var i;
-            for (i = 0; i < x.length - 1; i++) {
-                text += x.elements[i].value;
-            }
-            calendarCreator(text);
-            document.getElementById("notification").innerHTML = "Töltődik... Ne zárd be az ablakot!";
-        }
     </script>
 
 
