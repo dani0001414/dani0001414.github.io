@@ -22,11 +22,15 @@
         <button id="signin-button" onclick="handleSignInClick()">Sign In</button>
         <button id="signout-button" onclick="handleSignOutClick()">Sign Out</button>
 
-        <h1>Új Naptár létrehozása vagy válasz egyet a lenti listából:</h1>
+        <h1>Első lépések:</h1>
+        Naptár létrehozásánál egy nyilvános publikus könyvtárat hoz létre az oldal. Kiválasztásnál neked kell utólagosan átállítanid amire figyelmeztet majd az oldal.
+
+        <h2>Naptár Létrehozása:</h2>
         <form id="frm1" onsubmit="return false">
             Add meg a naptár nevét: <input type="text" name="fname" value=""><br>
             <input type="submit" onclick="submitCalendar()" value="Létrehozás">
         </form>
+        <h2>Naptár Kiválasztása:</h2>
         <div id="listCalendar"></div>
     </div>
 
