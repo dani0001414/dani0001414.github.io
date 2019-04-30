@@ -1,5 +1,6 @@
 //MobilMenetrend
 var cookieUserid = getCookie("userid");
+var calendarEventsList;
 
 
 function handleClientLoad() {
@@ -61,7 +62,8 @@ function loadClient() {
             //calendarEvents();
 
             if(cookieUserid != 0) {
-                calendarListGenerate();
+                document.getElementById("notification").innerHTML = "Hiba történt!";
+               // calendarListGenerate();
                 calendarEvents(cookieUserid);
             } else {
                 calendarListGenerate();
@@ -85,7 +87,7 @@ function calendarEvents(calID) {
         .then(function (response) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response", response);
-
+            document.getElementById("content").innerHTML = calendarEventsList=response.items[0];
 
         },
             function (err) { console.error("Execute error", err); });
