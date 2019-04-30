@@ -66,11 +66,11 @@
 
         }
 
-        function makeApiCall() {
+        function makeApiCall(calID) {
             // Make an API call to the People API, and print the user's given name.
 
             return gapi.client.calendar.events.list({
-                "calendarId": "ninjonupdate@gmail.com"
+                "calendarId": calID
             })
                 .then(function (response) {
                     // Handle the results here (response.result has the parsed body).
@@ -80,6 +80,7 @@
                 },
                     function (err) { console.error("Execute error", err); });
         }
+
         function summaryCallback(calendarName) {
             return gapi.client.calendar.calendars.insert({
                 "resource": {
@@ -90,17 +91,33 @@
                 .then(function (response) {
                     // Handle the results here (response.result has the parsed body).
                     console.log("Response", response.result);
-                    document.getElementById("notification").innerHTML = "Naptár Létrehozva "+response.result.summary+" néven!<br>A beállító fájlban ezt az id-t kell beírnod: "+response.result.id;
-                    makeApiCall(response.result);
+                    document.getElementById("notification").innerHTML = "Naptár Létrehozva " + response.result.summary + " néven!<br>A beállító fájlban ezt az id-t kell beírnod: " + response.result.id;
+                    setPublic(response.result.id)
+                    makeApiCall(response.result.id);
                 },
                     function (err) {
-                         console.error("Execute error", err);
-                         document.getElementById("notification").innerHTML = "Hibatörtént!";
-                        });
-
+                        console.error("Execute error", err);
+                        document.getElementById("notification").innerHTML = "Hibatörtént!";
+                    });
+        }
+        function setPublic(calID) {
+            return gapi.client.calendar.acl.insert({
+                "calendarId": calID,
+                "resource": {
+                    "role": "reader",
+                    "scope": {
+                        "type": "default"
+                    }
+                }
+            })
+                .then(function (response) {
+                    // Handle the results here (response.result has the parsed body).
+                    console.log("Response", response);
+                },
+                    function (err) { console.error("Execute error", err); });
         }
 
-   
+
 
 
     </script>
@@ -128,7 +145,7 @@
                 text += x.elements[i].value;
             }
             summaryCallback(text);
-            document.getElementById("notification").innerHTML ="Töltődik... Ne zárd be az ablakot!";
+            document.getElementById("notification").innerHTML = "Töltődik... Ne zárd be az ablakot!";
         }
     </script>
 
