@@ -39,7 +39,7 @@
             // If the signin status is changed to signedIn, we make an API call.
             if (isSignedIn) {
                 loadClient();
-                var user = gapi.auth2.BasicProfile.getEmail();
+                var user = gapi.auth2.getAuthInstance().currentUser.get().getBasicProfile().getEmail();
                 
 
                 document.getElementById("notification").innerHTML = "Bejelentkezve "+user+" néven!";
