@@ -181,11 +181,11 @@ function createcookie(name, value, days, banner) {
     */
 }
 function calendarListGet(){
-     return gapi.client.calendar.calendarList.list({})
+    gapi.client.calendar.calendarList.list({})
     .then(function(response) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response",  response.result);
-            
+            return  response.result.items;
           },
           function(err) { console.error("Execute error", err); });
 }
@@ -193,5 +193,5 @@ function calendarListGet(){
 function generateList(){
     var listDiv = document.getElementById("listCalendar");
     var array = calendarListGet();
-    return array;
+    return array[0].summary;
 }
