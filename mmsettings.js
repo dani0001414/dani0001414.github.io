@@ -212,7 +212,7 @@ function calendarListGenerate(){
 }
 
 function ListSelectIndex() {
-    var x = document.getElementById("mySelect").selectedIndex;
-    var y = document.getElementById("mySelect").options;
+    var x = document.getElementById("listCalendar").selectedIndex;
+    var y = document.getElementById("listCalendar").options;
     alert("Index: " + y[x].index + " is " + y[x].text);
   }
