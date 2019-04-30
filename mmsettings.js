@@ -182,8 +182,8 @@ function calendarListGet(){
      return gapi.client.calendar.calendarList.list({})
     .then(function(response) {
             // Handle the results here (response.result has the parsed body).
-            console.log("Response", response);
-            return response.result;
+            console.log("Response",  response.result);
+            
           },
           function(err) { console.error("Execute error", err); });
 }
