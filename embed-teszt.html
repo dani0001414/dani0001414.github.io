@@ -32,7 +32,7 @@
             // When signin status changes, this function is called.
             // If the signin status is changed to signedIn, we make an API call.
             if (isSignedIn) {
-                makeApiCall();
+                loadClient();
             }
         }
 
@@ -50,12 +50,13 @@
             return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest")
                 .then(function () { console.log("GAPI client loaded for API"); },
                     function (err) { console.error("Error loading GAPI client for API", err); });
+                    makeApiCall();
         }
 
         function makeApiCall() {
             // Make an API call to the People API, and print the user's given name.
 
-            loadClient();
+           
             
             return gapi.client.calendar.events.list({
                 "calendarId": "ninjonupdate@gmail.com"
