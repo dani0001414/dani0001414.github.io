@@ -35,6 +35,9 @@
             if (isSignedIn) {
                 loadClient();
                 statusText += "Bejelentkezve!<br>";
+                document.getElementById("notification").innerHTML = statusText;
+            } else {
+                document.getElementById("notification").innerHTML = "Nem vagy bejelentkezve!";
             }
         }
 
@@ -58,6 +61,7 @@
                     function (err) {
                         console.error("Error loading GAPI client for API", err);
                         statusText += "CalendarAPI Hiba!";
+                        document.getElementById("notification").innerHTML = "Hiba történt!";
                     });
 
         }
@@ -88,13 +92,14 @@
                     console.log("Response", response.result);
                     makeApiCall(response.result);
                 },
-                    function (err) { console.error("Execute error", err); });
+                    function (err) {
+                         console.error("Execute error", err);
+                         document.getElementById("notification").innerHTML = "Hibatörtént!";
+                        });
 
         }
 
-        document.addEventListener("DOMContentLoaded", function (event) {
-            document.getElementById("notification").innerHTML = statusText;
-        });
+   
 
 
     </script>
@@ -105,7 +110,7 @@
     <button id="signin-button" onclick="handleSignInClick()">Sign In</button>
     <button id="signout-button" onclick="handleSignOutClick()">Sign Out</button>
 
-    <form id="frm1">
+    <form id="frm1" onsubmit="return false">
         Add meg a naptár nevét: <input type="text" name="fname" value=""><br>
         <input type="submit" onclick="myFunction()" value="Létrehozás">
     </form>
