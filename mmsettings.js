@@ -39,7 +39,7 @@ function updateSigninStatus(isSignedIn) {
             document.getElementById("content").innerHTML =   generateList();
             calendarEvents(cookieUserid);
         } else {
-            document.getElementById("listCalendar").innerHTML = generateList();
+        //    document.getElementById("listCalendar").innerHTML = generateList();
         }
     } else {
         document.getElementById("notification").innerHTML = "Nem vagy bejelentkezve!";
