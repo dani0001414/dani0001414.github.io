@@ -90,6 +90,7 @@
                 .then(function (response) {
                     // Handle the results here (response.result has the parsed body).
                     console.log("Response", response.result);
+                    document.getElementById("notification").innerHTML = "Naptár Létrehozva!"+response.result.summary+"<br>A beállító fájlban ezt az id-t kell beírnod:"+response.result.id;
                     makeApiCall(response.result);
                 },
                     function (err) {
@@ -127,7 +128,7 @@
                 text += x.elements[i].value;
             }
             summaryCallback(text);
-            document.getElementById("notification").innerHTML = "Naptár Létrehozva!";
+            
         }
     </script>
 
