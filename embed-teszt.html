@@ -90,7 +90,11 @@
                     function (err) { console.error("Execute error", err); });
                     makeApiCall();
         }
+        window.document.onload = function(){
+            document.getElementById("notification").innerHTML= statusText;
+        };
         
+    
     </script>
     <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()"
         onreadystatechange="if (this.readyState === 'complete') this.onload()">
@@ -107,7 +111,7 @@
       
 
       <script>
-          document.getElementById("notification").innerHTML= statusText;
+         
         function myFunction() {
           var x = document.getElementById("frm1");
           var text = "";
