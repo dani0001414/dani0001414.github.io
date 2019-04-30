@@ -35,12 +35,7 @@ function updateSigninStatus(isSignedIn) {
 
 
         document.getElementById("notification").innerHTML = "Bejelentkezve " + user + " néven!";
-        if(cookieUserid != 0) {
-            document.getElementById("content").innerHTML =   generateList();
-            calendarEvents(cookieUserid);
-        } else {
-        //    document.getElementById("listCalendar").innerHTML = generateList();
-        }
+       
     } else {
         document.getElementById("notification").innerHTML = "Nem vagy bejelentkezve!";
     }
@@ -64,6 +59,13 @@ function loadClient() {
             console.log("GAPI client loaded for API");
 
             //calendarEvents();
+
+            if(cookieUserid != 0) {
+                document.getElementById("content").innerHTML =   generateList();
+                calendarEvents(cookieUserid);
+            } else {
+                document.getElementById("listCalendar").innerHTML = generateList();
+            }
         },
             function (err) {
                 console.error("Error loading GAPI client for API", err);
