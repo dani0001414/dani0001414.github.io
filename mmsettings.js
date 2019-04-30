@@ -181,13 +181,16 @@ function createcookie(name, value, days, banner) {
     }
     */
 }
+var listCalendarArray;
+
 function calendarListGenerate(){
    return gapi.client.calendar.calendarList.list({})
     .then(function(response) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response",  response.result);
             var listDiv = document.getElementById("listCalendar");
-            var array = response.result.items;
+            listCalendarArray =response.result.items;
+            var array = listCalendarArray;
             var selectList = document.createElement("select");
             selectList.id = "listc";
             listDiv.appendChild(selectList);
@@ -212,7 +215,7 @@ function calendarListGenerate(){
 }
 
 function ListSelectIndex() {
-    var x = document.getElementById("listCalendar").selectedIndex;
-    var y = document.getElementById("listCalendar").options;
-    alert("Index: " + y[x].index + " is " + y[x].text);
+    var x = document.getElementById("listc").selectedIndex;
+    var y = document.getElementById("listc").options;
+    alert("Naptár: " + y[x].index + " ID: " + listCalendarArray[x].summary);
   }
