@@ -92,7 +92,9 @@ function calendarEvents(calID) {
 
         },
             function (err) { 
-                document.getElementById("notification").innerHTML = "A kiválasztott naptár időközben törlődött. Ellenőrizd a listában vagy a Google Naptár szolgáltatásán belül."
+                createcookie(0, response.result.id, 365);
+                document.getElementById("notification").innerHTML ="Hiba történt!";
+                document.getElementById("content").innerHTML = "A kiválasztott naptár időközben törlődött. A lap frissítése után ellenőrizd a listában vagy a Google Naptár szolgáltatásán belül."
              });
 }
 
