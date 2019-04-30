@@ -88,7 +88,7 @@ function calendarEvents(calID) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response", response);
             calendarEventsList=response.result;
-            document.getElementById("content").innerHTML = calendarEventsList.items[0];
+            document.getElementById("content").innerHTML = JSON.stringify(calendarEventsList.items);
 
         },
             function (err) { console.error("Execute error", err); });
