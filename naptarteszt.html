@@ -39,6 +39,7 @@
             // If the signin status is changed to signedIn, we make an API call.
             if (isSignedIn) {
                 loadClient();
+                var GoogleAuth = gapi.auth2.getAuthInstance();
                 var user = GoogleAuth.currentUser.get();
                 document.getElementById("notification").innerHTML = "Bejelentkezve "+user+" néven!";
             } else {
