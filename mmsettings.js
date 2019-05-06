@@ -227,10 +227,9 @@ function ListSelectIndex() {
     
     document.getElementById("content").innerHTML = "Naptár Kiválasztva " + listCalendarArray[x].summary + " néven!<br>A beállító fájlban ezt az id-t kell beírnod: " + listCalendarArray[x].id+"<br>A lapot frissítve mostmár elérheted az események szerkesztését.";
             setPublic(listCalendarArray[x].id);
-            calendarEvents(listCalendarArray[x].id);
+            //calendarEvents(listCalendarArray[x].id);
             createcookie('userid', listCalendarArray[x].id, 365);
-    
-            
+      
   }
 
   function deleteAllCookies() {
