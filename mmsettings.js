@@ -110,7 +110,7 @@ function calendarCreator(calendarName) {
             console.log("Response", response.result);
             document.getElementById("content").innerHTML = "Naptár Létrehozva " + response.result.summary + " néven!<br>A beállító fájlban ezt az id-t kell beírnod: " + response.result.id+"<br>A lapot frissítve mostmár elérheted az események szerkesztését.";
             setPublic(response.result.id);
-            calendarEvents(response.result.id);
+           // calendarEvents(response.result.id);
             createcookie('userid', response.result.id, 365);
         },
             function (err) {
