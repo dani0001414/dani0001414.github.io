@@ -88,7 +88,8 @@ function calendarEvents(calID) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response", response);
             calendarEventsList=response.result;
-            document.getElementById("content").innerHTML = JSON.stringify(calendarEventsList.items);
+            document.getElementById("content").innerHTML = JSON.stringify(calendarEventsList.items); 
+            document.getElementById("content").innerHTML += "<button  onclick=\"deleteAllCookies()\">Választás Törlése</button>"
 
         },
             function (err) { 
@@ -231,3 +232,15 @@ function ListSelectIndex() {
     
             
   }
+
+  function deleteAllCookies() {
+    var cookies = document.cookie.split(";");
+
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        var eqPos = cookie.indexOf("=");
+        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    }
+}
