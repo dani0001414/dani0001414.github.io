@@ -32,7 +32,7 @@ function updateSigninStatus(isSignedIn) {
     // If the signin status is changed to signedIn, we make an API call.
     if (isSignedIn) {
         loadClientGDrive();
-        DriveFileList();
+        
         loadClient();
         var user = gapi.auth2.getAuthInstance().currentUser.get().getBasicProfile().getEmail();
 
@@ -82,7 +82,10 @@ function loadClient() {
 //Google Drive Rész
 function loadClientGDrive() {
     return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/drive/v3/rest")
-        .then(function() { console.log("GAPI Drive client loaded for API"); },
+        .then(function() { 
+            console.log("GAPI Drive client loaded for API"); 
+            DriveFileList();
+        },
               function(err) { console.error("Error loading GAPI client for API", err); });
   }
 
