@@ -17,7 +17,7 @@ function initClient() {
         apiKey: 'AIzaSyCD1ugK3SbKB3BLBBA4u3M96EwtsyB0fI4',
         //discoveryDocs: ["https://people.googleapis.com/$discovery/rest?version=v1"],
         clientId: '858976792314-o5ctfle20f5php5pshg78jij5rsi5gcd.apps.googleusercontent.com',
-        scope: "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar.events.readonly https://www.googleapis.com/auth/calendar.readonly"
+        scope: "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar.events.readonly https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/drive.appdata https://www.googleapis.com/auth/drive.file"
     }).then(function () {
         // Listen for sign-in state changes.
         gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
@@ -31,6 +31,8 @@ function updateSigninStatus(isSignedIn) {
     // When signin status changes, this function is called.
     // If the signin status is changed to signedIn, we make an API call.
     if (isSignedIn) {
+        loadClientGDrive();
+        DriveFileList();
         loadClient();
         var user = gapi.auth2.getAuthInstance().currentUser.get().getBasicProfile().getEmail();
 
@@ -77,6 +79,21 @@ function loadClient() {
             });
 
 }
+//Google Drive Rész
+function loadClientGDrive() {
+    return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/drive/v3/rest")
+        .then(function() { console.log("GAPI Drive client loaded for API"); },
+              function(err) { console.error("Error loading GAPI client for API", err); });
+  }
+
+  function DriveFileList() {
+    return gapi.client.drive.files.list({})
+        .then(function(response) {
+                // Handle the results here (response.result has the parsed body).
+                console.log("Response", response);
+              },
+              function(err) { console.error("Execute error", err); });
+  }
 
 function calendarEvents(calID) {
     // Make an API call to the People API, and print the user's given name.
