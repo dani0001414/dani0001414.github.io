@@ -124,7 +124,7 @@ function DriveFileList() {
     })
         .then(function (response) {
             // Handle the results here (response.result has the parsed body).
-            
+            console.error("Execute error", response)
             response.result.files.forEach(function (file) {
                 count++;
                 console.log('Found file:', file.name, file.id);
