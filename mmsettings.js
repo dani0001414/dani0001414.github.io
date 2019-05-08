@@ -98,17 +98,21 @@ function loadClientGDrive() {
 function insertFile() {
     var fileMetadata = {
         'title': 'config.json',
-        'parents': [{id: 'appDataFolder'}]
+        'parents': [{ id: 'appDataFolder' }]
+    };
+    var media = {
+        mimeType: 'application/json',
+        body: gapi.client.fs.createReadStream('files/config.json')
       };
-
-     return gapi.client.drive.files.create({
+    return gapi.client.drive.files.create({
         resource: fileMetadata,
+        media: media,
         fields: 'id'
-      }).then( function (file) {
-        
-          console.log('Folder Id:', file.id);
-        
-      });
+    }).then(function (file) {
+
+        console.log('Folder Id:', file.id);
+
+    });
 }
 
 function DriveFileList() {
@@ -120,12 +124,12 @@ function DriveFileList() {
     })
         .then(function (response) {
             // Handle the results here (response.result has the parsed body).
-            
+
             response.result.files.forEach(function (file) {
                 count++;
                 console.log('Found file:', file.name, file.id);
-              });
-            if (count ==  0) {
+            });
+            if (count == 0) {
                 insertFile();
             }
         },
