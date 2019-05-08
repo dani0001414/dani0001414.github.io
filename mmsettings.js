@@ -105,7 +105,7 @@ function insertFile() {
       };
     return gapi.client.drive.files.create({
         resource: fileMetadata,
-        media: media,
+       // media: media,
 
     }).then(function (file) {
 
