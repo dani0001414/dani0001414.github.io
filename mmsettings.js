@@ -97,11 +97,10 @@ function loadClientGDrive() {
 
 function insertFile() {
     var fileMetadata = {
-        'name': 'config.json',
-        'mimeType': 'application/vnd.google-apps.document',
-        'parents': ['appDataFolder']
+        'title': 'config.json',
+        'parents': [{id: 'appDataFolder'}]
       };
-
+      
      return gapi.client.drive.files.create({
         resource: fileMetadata,
         fields: 'id'
