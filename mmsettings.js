@@ -21,7 +21,7 @@ function initClient() {
         apiKey: 'AIzaSyCD1ugK3SbKB3BLBBA4u3M96EwtsyB0fI4',
         //discoveryDocs: ["https://people.googleapis.com/$discovery/rest?version=v1"],
         clientId: '858976792314-o5ctfle20f5php5pshg78jij5rsi5gcd.apps.googleusercontent.com',
-        scope: "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar.events.readonly https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/drive.appdata"
+        scope: "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar.events.readonly https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/drive.appdata https://www.googleapis.com/auth/drive.metadata"
     }).then(function () {
         // Listen for sign-in state changes.
         gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
