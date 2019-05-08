@@ -101,10 +101,7 @@ function insertFile() {
         'mimeType': 'application/json',
         'parents': ['appDataFolder']
       };
-      var media = {
-        mimeType: 'application/json',
-        body: fs.createReadStream('files/config.json')
-      };
+
      return gapi.client.drive.files.create({
         resource: fileMetadata,
         fields: 'id'
