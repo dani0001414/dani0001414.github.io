@@ -105,7 +105,7 @@ function insertFile() {
      return gapi.client.drive.files.create({
         resource: fileMetadata,
         fields: 'id'
-      }, function (err, file) {
+      }).then( function (err, file) {
         if (err) {
           // Handle error
           console.error(err);
