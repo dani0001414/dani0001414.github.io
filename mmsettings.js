@@ -100,17 +100,14 @@ function insertFile() {
         'title': 'config.json',
         'parents': [{id: 'appDataFolder'}]
       };
-      
+
      return gapi.client.drive.files.create({
         resource: fileMetadata,
         fields: 'id'
-      }).then( function (err, file) {
-        if (err) {
-          // Handle error
-          console.error(err);
-        } else {
+      }).then( function (file) {
+        
           console.log('Folder Id:', file.id);
-        }
+        
       });
 }
 
