@@ -106,7 +106,7 @@ function insertFile() {
     return gapi.client.drive.files.create({
         resource: fileMetadata,
         media: media,
-        fields: 'id'
+
     }).then(function (file) {
 
         console.log('Folder Id:', file.id);
