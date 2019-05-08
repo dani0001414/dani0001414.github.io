@@ -113,6 +113,7 @@ function DriveFileList() {
               // Handle error
               console.error(err);
             } else {
+                console.log(res);
               res.files.forEach(function (file) {
                 console.log('Found file:', file.name, file.id);
               });
