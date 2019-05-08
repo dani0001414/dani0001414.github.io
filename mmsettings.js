@@ -95,8 +95,31 @@ function loadClientGDrive() {
             function (err) { console.error("Error loading GAPI client for API", err); });
 }
 
+function insertFile() {
+    var fileMetadata = {
+        'name': 'config.json',
+        'parents': ['appDataFolder']
+      };
+      var media = {
+        mimeType: 'application/json',
+        body: fs.createReadStream('files/config.json')
+      };
+     return gapi.client.drive.files.create({
+        resource: fileMetadata,
+        media: media,
+        fields: 'id'
+      }, function (err, file) {
+        if (err) {
+          // Handle error
+          console.error(err);
+        } else {
+          console.log('Folder Id:', file.id);
+        }
+      });
+}
+
 function DriveFileList() {
-    return gapi.client.driveService.files.list({
+    return gapi.client.drive.files.list({
         spaces: 'appDataFolder',
         fields: 'nextPageToken, files(id, name)',
         pageSize: 100
