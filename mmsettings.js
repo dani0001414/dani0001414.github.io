@@ -98,7 +98,7 @@ function loadClientGDrive() {
 function insertFile() {
     var fileMetadata = {
         'title': 'settings',
-        'mimeType' : 'application/vnd.google-apps.document',
+        'mimeType' : 'application/json',
         'parents': [{ id: 'appDataFolder' }]
     };
     var media = {
