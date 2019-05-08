@@ -104,7 +104,7 @@ function DriveFileList() {
             function (err) { console.error("Execute error", err); });
             */
 
-           drive.files.list({
+           gapi.client.drive.files.list({
             spaces: 'appDataFolder',
             fields: 'nextPageToken, files(id, name)',
             pageSize: 100
