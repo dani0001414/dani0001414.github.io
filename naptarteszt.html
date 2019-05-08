@@ -9,21 +9,21 @@
 </head>
 
 <body>
-    <script type="text/javascript">
-
-    </script>
-
-    <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()"
-        onreadystatechange="if (this.readyState === 'complete') this.onload()">
-        </script>
+    <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
 
     <div id="notification"></div>
-    <div id="content">
+    <div id="LoginContent">
+        Mielőtt Bármit Csinálnál társítsd Google Fiókodat a kezelőfelülettel:
         <button id="signin-button" onclick="handleSignInClick()">Sign In</button>
+    </div>
+
+    <div id="content">
+        Kijelentkezés:
         <button id="signout-button" onclick="handleSignOutClick()">Sign Out</button>
 
         <h1>Első lépések:</h1>
-        Hozz létre vagy válasz ki egy már erre a célra létrehozott naptárat.<br> FONTOS, hogy létrehozásnál és kiválasztásnál az adott naptár nyilvánosra állítódik.
+        Hozz létre vagy válasz ki egy már erre a célra létrehozott naptárat.<br> FONTOS, hogy létrehozásnál és
+        kiválasztásnál az adott naptár nyilvánosra állítódik.
 
         <h2>Naptár Létrehozása:</h2>
         <form id="frm1" onsubmit="return false">

@@ -1,7 +1,9 @@
 //MobilMenetrend
 var cookieUserid = getCookie("userid");
 var calendarEventsList;
-
+var loginContent = document.getElementById("LoginContent");
+var notifContent = document.getElementById("notification");
+var content = document.getElementById("content");
 
 function handleClientLoad() {
     // Loads the client library and the auth2 library together for efficiency.
@@ -35,12 +37,14 @@ function updateSigninStatus(isSignedIn) {
         
         loadClient();
         var user = gapi.auth2.getAuthInstance().currentUser.get().getBasicProfile().getEmail();
-
-
-        document.getElementById("notification").innerHTML = "Bejelentkezve " + user + " néven!";
+        notifContent.innerHTML = "Bejelentkezve " + user + " néven!";
+        content.style.display = "block";
+        loginContent.style.display = "none";
        
     } else {
-        document.getElementById("notification").innerHTML = "Nem vagy bejelentkezve!";
+        notifContent.innerHTML = "Nem vagy bejelentkezve!";
+        content.style.display = "none";
+        loginContent.style.display = "block";
     }
 }
 
@@ -64,7 +68,7 @@ function loadClient() {
             //calendarEvents();
 
             if(cookieUserid != 0) {
-                document.getElementById("notification").innerHTML = "Kiválasztott Naptár Eseményei JSON-ban(Fejlesztés Alatt)!";
+                notifContent.innerHTML = "Kiválasztott Naptár Eseményei JSON-ban(Fejlesztés Alatt)!";
                // calendarListGenerate();
                 calendarEvents(cookieUserid);
             } else {
@@ -75,7 +79,7 @@ function loadClient() {
             function (err) {
                 console.error("Error loading GAPI client for API", err);
 
-                document.getElementById("notification").innerHTML = "Hiba történt!";
+                notifContent.innerHTML = "Hiba történt!";
             });
 
 }
@@ -108,14 +112,14 @@ function calendarEvents(calID) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response", response);
             calendarEventsList=response.result;
-            document.getElementById("content").innerHTML = JSON.stringify(calendarEventsList.items); 
-            document.getElementById("content").innerHTML += "<button  onclick=\"deleteAllCookies()\">Választás Törlése</button>"
+            content.innerHTML = JSON.stringify(calendarEventsList.items); 
+            content.innerHTML += "<button  onclick=\"deleteAllCookies()\">Választás Törlése</button>"
 
         },
             function (err) { 
                 createcookie('userid', 0, 365);
-                document.getElementById("notification").innerHTML ="Hiba történt!";
-                document.getElementById("content").innerHTML = "A kiválasztott naptár időközben törlődött. A lap frissítése utánellenőrizd a listában vagy a Google Naptár szolgáltatásán belül."
+                notifContent.innerHTML ="Hiba történt!";
+                content.innerHTML = "A kiválasztott naptár időközben törlődött. A lap frissítése utánellenőrizd a listában vagy a Google Naptár szolgáltatásán belül."
              });
 }
 
@@ -136,7 +140,7 @@ function calendarCreator(calendarName) {
         },
             function (err) {
                 console.error("Execute error", err);
-                document.getElementById("notification").innerHTML = "Először be kell lépned!";
+                notifContent.innerHTML = "Először be kell lépned!";
             });
 }
 function setPublic(calID) {
@@ -165,7 +169,7 @@ function submitCalendar() {
         text += x.elements[i].value;
     }
     calendarCreator(text);
-    document.getElementById("content").innerHTML = "Töltődik... Ne zárd be az ablakot!";
+    content.innerHTML = "Töltődik... Ne zárd be az ablakot!";
 }
 
 function getCookie(cname) {
@@ -245,7 +249,7 @@ function calendarListGenerate(){
 function ListSelectIndex() {
     var x = document.getElementById("listc").selectedIndex;
     
-    document.getElementById("content").innerHTML = "Naptár Kiválasztva " + listCalendarArray[x].summary + " néven!<br>A beállító fájlban ezt az id-t kell beírnod: " + listCalendarArray[x].id+"<br>A lapot frissítve mostmár elérheted az események szerkesztését.";
+    content.innerHTML = "Naptár Kiválasztva " + listCalendarArray[x].summary + " néven!<br>A beállító fájlban ezt az id-t kell beírnod: " + listCalendarArray[x].id+"<br>A lapot frissítve mostmár elérheted az események szerkesztését.";
             setPublic(listCalendarArray[x].id);
             //calendarEvents(listCalendarArray[x].id);
             createcookie('userid', listCalendarArray[x].id, 365);
