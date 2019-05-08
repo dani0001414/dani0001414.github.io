@@ -96,7 +96,7 @@ function loadClientGDrive() {
 }
 
 function DriveFileList() {
-    return gapi.client.drive.files.list({})
+    return gapi.client.driveService.files.list({})
         .then(function (response) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response", response);
