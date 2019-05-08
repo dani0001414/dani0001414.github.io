@@ -96,29 +96,33 @@ function loadClientGDrive() {
 }
 
 function DriveFileList() {
-    /*return gapi.client.driveService.files.list({})
+    return gapi.client.driveService.files.list({
+        spaces: 'appDataFolder',
+        fields: 'nextPageToken, files(id, name)',
+        pageSize: 100
+    })
         .then(function (response) {
             // Handle the results here (response.result has the parsed body).
             console.log("Response", response);
         },
             function (err) { console.error("Execute error", err); });
-            */
 
-         return  gapi.client.drive.files.list({
-            spaces: 'appDataFolder',
-            fields: 'nextPageToken, files(id, name)',
-            pageSize: 100
-          }, function (err, res) {
-            if (err) {
-              // Handle error
-              console.error(err);
-            } else {
-                console.log(res);
-              res.files.forEach(function (file) {
-                console.log('Found file:', file.name, file.id);
-              });
-            }
-          });
+
+    /*return  gapi.client.drive.files.list({
+       spaces: 'appDataFolder',
+       fields: 'nextPageToken, files(id, name)',
+       pageSize: 100
+     }, function (err, res) {
+       if (err) {
+         // Handle error
+         console.error(err);
+       } else {
+           console.log(res);
+         res.files.forEach(function (file) {
+           console.log('Found file:', file.name, file.id);
+         });
+       }
+     });*/
 }
 
 function calendarEvents(calID) {
