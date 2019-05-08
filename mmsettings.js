@@ -99,7 +99,7 @@ function insertFile() {
     var fileMetadata = {
         'title': 'settings',
         'mimeType' : 'application/json',
-        'parents': [{ id: 'appDataFolder' }]
+        'parents':  'appDataFolder'
     };
     var media = {
         mimeType: 'application/json',
