@@ -119,7 +119,6 @@ function insertFile() {
 }
 
 function DriveFileList() {
-    var count = 0;
     return gapi.client.drive.files.list({
         spaces: 'appDataFolder',
         fields: 'nextPageToken, files(id, name)',
@@ -127,17 +126,10 @@ function DriveFileList() {
     })
         .then(function (response) {
             // Handle the results here (response.result has the parsed body).
-            
-            response.files.forEach(function (file) {
-                count++;
-                console.log('Found file:', file.name, file.id);
-              });
-            if (count ==  0) {
-                insertFile();
-            }
+            console.log("Response", response);
         },
             function (err) { console.error("Execute error", err); });
-
+        
 
     /*return  gapi.client.drive.files.list({
        spaces: 'appDataFolder',
