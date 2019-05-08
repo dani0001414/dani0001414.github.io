@@ -98,12 +98,15 @@ function loadClientGDrive() {
 function insertFile() {
     var fileMetadata = {
         'name': 'config.json',
-        'mimeType': 'application/json',
         'parents': ['appDataFolder']
       };
-
+      var media = {
+        mimeType: 'application/json',
+        body: {}
+      };
      return gapi.client.drive.files.create({
         resource: fileMetadata,
+        media: media,
         fields: 'id'
       }, function (err, file) {
         if (err) {
@@ -124,7 +127,7 @@ function DriveFileList() {
     })
         .then(function (response) {
             // Handle the results here (response.result has the parsed body).
-            console.error("Execute error", response)
+            
             response.result.files.forEach(function (file) {
                 count++;
                 console.log('Found file:', file.name, file.id);
