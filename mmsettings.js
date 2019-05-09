@@ -200,7 +200,7 @@ function openFile(fileId) {
         alt: 'media'
  
     }).then(function(success){
-
+        readJson=JSON.parse(success.body);
         console.log(success.body);
 
         //success.result    
