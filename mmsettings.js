@@ -38,8 +38,8 @@ function updateSigninStatus(isSignedIn) {
     // If the signin status is changed to signedIn, we make an API call.
     if (isSignedIn) {
         loadClientGDrive();
+        loadClientCalendar();
 
-        loadClient();
         var user = gapi.auth2.getAuthInstance().currentUser.get().getBasicProfile().getEmail();
         notifContent.innerHTML = "Bejelentkezve " + user + " néven!";
         content.style.display = "block";
@@ -64,21 +64,11 @@ function handleSignOutClick(event) {
 
 
 
-function loadClient() {
+function loadClientCalendar() {
     return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest")
         .then(function () {
             console.log("GAPI client loaded for API");
 
-            //calendarEvents();
-
-            if (cookieUserid != 0) {
-                notifContent.innerHTML = "Kiválasztott Naptár Eseményei JSON-ban(Fejlesztés Alatt)!";
-                // calendarListGenerate();
-                calendarEvents(cookieUserid);
-            } else {
-                calendarListGenerate();
-
-            }
         },
             function (err) {
                 console.error("Error loading GAPI client for API", err);
@@ -93,7 +83,6 @@ function loadClientGDrive() {
         .then(function () {
             console.log("GAPI Drive client loaded for API");
             DriveFileList(null);
-
         },
             function (err) { console.error("Error loading GAPI client for API", err); });
 }
@@ -160,91 +149,32 @@ function DriveFileList(json) {
         },
             function (err) { console.error("Execute error", err); });
 
-
-    /*return  gapi.client.drive.files.list({
-       spaces: 'appDataFolder',
-       fields: 'nextPageToken, files(id, name)',
-       pageSize: 100
-     }, function (err, res) {
-       if (err) {
-         // Handle error
-         console.error(err);
-       } else {
-           console.log(res);
-         res.files.forEach(function (file) {
-           console.log('Found file:', file.name, file.id);
-         });
-       }
-     });*/
-}
-
-function downloadFile(file, callback) {
-    if (file.downloadUrl) {
-        var accessToken = gapi.auth.getToken().access_token;
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', file.downloadUrl);
-        xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
-        xhr.onload = function () {
-            callback(xhr.responseText);
-        };
-        xhr.onerror = function () {
-            callback(null);
-        };
-        xhr.send();
-    } else {
-        callback(null);
-    }
 }
 
 function openFile(fileId, json) {
-    
+    ///Megnyitjuk a fájlt ha úgy adódik írunk is bele
     return gapi.client.drive.files.get({
         fileId: fileId,
         alt: 'media'
-
     }).then(function (success) {
-       
+        //Ha json nem üres akkor azt jelenti, hogy írunk bele
         if (json != null) {
-            try {
-                
-                    updateFileContent(fileId, json, function (response) {
-                        console.log(response);
-                    });
-                
-            } catch {
-                updateFileContent(fileId, json, function (response) {
-                    console.log(response);
-                });
-            }
-
-
+            updateFileContent(fileId, json, function (response) {
+                console.log(response);
+            });
         } else {
-            if(success.body != "") { 
-                readJson = JSON.parse(success.body); 
+            //Ha nem üres a fájl akkor kiolvassuk belőle az userid-t.
+            if (success.body != "") {
+                readJson = JSON.parse(success.body);
                 content.innerHTML += readJson.userid;
-             }
-            
+                HtmlLoad(readJson.userid);
+            }
         }
-        
-
-        //success.result    
+      
     }, function (fail) {
         console.log(fail);
         console.log('Error ' + fail.result.error.message);
     })
-
-    /*
-        return gapi.client.drive.files.export({
-            'fileId': fileId,
-            'mimeType': 'text/plain'
-        }).then(function (success) {
-            console.log(success);
-            //success.result    
-        }, function (fail) {
-            console.log(fail);
-            console.log('Error ' + fail.result.error.message);
-        })
-        */
 }
 
 function calendarEvents(calID) {
@@ -258,7 +188,7 @@ function calendarEvents(calID) {
             console.log("Response", response);
             calendarEventsList = response.result;
             content.innerHTML = JSON.stringify(calendarEventsList.items);
-            content.innerHTML += "<button  onclick=\"deleteAllCookies()\">Választás Törlése</button>"
+            content.innerHTML += "<button  onclick=\"DriveFileList(''));\">Választás Törlése</button>"
 
         },
             function (err) {
@@ -348,19 +278,6 @@ function createcookie(name, value, days, banner) {
         expires = "";
     }
     document.cookie = name + "=" + value + expires;
-
-    /*   if (banner == "banner") { document.getElementById("myCookie").style.display = 'none'; } else if ((name == policyAgreementCookie) | (name == themeCookie)) { modal_open("cookie_settings"); }
-       //*Téma választó cookie létrehozásával egyben át is váltjuk az általa képviselt kinézetre
-       if (name == themeCookie) {
-           if (value == "dark") {
-               if (internetStatus == "online") { Dark(eventsLength); } else { Dark(offlineLength); }
-           }
-           if (value == "light") {
-               if (internetStatus == "online") { Light(eventsLength); } else { Light(offlineLength); }
-           }
-           modal_open("cookie_settings");
-       }
-       */
 }
 var listCalendarArray;
 
@@ -418,4 +335,14 @@ function deleteAllCookies() {
         document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     }
     location.reload();
+}
+
+function HtmlLoad(userid){
+    if (cookieUserid != 0) {
+        notifContent.innerHTML = "Kiválasztott Naptár Eseményei JSON-ban(Fejlesztés Alatt)!";
+        // calendarListGenerate();
+        calendarEvents(userid);
+    } else {
+        calendarListGenerate();
+    }
 }
