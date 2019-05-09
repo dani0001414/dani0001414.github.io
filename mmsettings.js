@@ -150,7 +150,7 @@ function DriveFileList(json) {
 
             });
             if (count == 0) {
-                if (json == null) {
+                if (json != null) {
                     insertFile(JSON.stringify(SettingsJson));
                 }
             } else {
