@@ -96,6 +96,9 @@ function loadClientGDrive() {
 }
 
 function insertFile() {
+    var fileContent = 'sample text'; // As a sample, upload a text file.
+    var file = new Blob([fileContent], { type: 'application/json' });
+
     var fileMetadata = {
         'name': 'settings',
         'mimeType': 'application/json',
@@ -103,10 +106,11 @@ function insertFile() {
     };
     var media = {
         mimeType: 'application/json',
+        body: file
     };
     return gapi.client.drive.files.create({
         resource: fileMetadata,
-        // media: media,
+        media: media,
 
     }).then(function (file) {
 
@@ -131,6 +135,8 @@ function DriveFileList() {
             });
             if (count == 0) {
                 insertFile();
+            } else {
+                openFile(file.id);
             }
         },
             function (err) { console.error("Execute error", err); });
@@ -151,6 +157,13 @@ function DriveFileList() {
          });
        }
      });*/
+}
+
+function openFile(fileId){
+   return gapi.client.drive.files.get({ 'fileId': fileId }).then(function(response){
+    console.log('Found file:', response);
+   });
+
 }
 
 function calendarEvents(calID) {
