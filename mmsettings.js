@@ -193,16 +193,17 @@ function downloadFile(file, callback) {
 
 function openFile(fileId) {
     
-        var request = gapi.client.drive.files.get({
-          'fileId': fileId
-        });
-        request.execute(function(resp) {
-          console.log('Title: ' + resp.title);
-          console.log('Description: ' + resp.description);
-          console.log('MIME type: ' + resp.mimeType);
-        });
-      console.log(request);
-  
+    gapi.client.drive.files.get({
+        fileId: fileId,
+        fields: 'webContentLink'
+    }).then(function(success){
+        var webContentLink = success.result.webContentLink; //the link is in the success.result object
+        console.log(webContentLink);
+        //success.result    
+    }, function(fail){
+        console.log(fail);
+        console.log('Error '+ fail.result.error.message);
+    })
     
 /*
     return gapi.client.drive.files.export({
