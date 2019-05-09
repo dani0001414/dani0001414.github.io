@@ -1,6 +1,7 @@
 //MobilMenetrend
 var cookieUserid = getCookie("userid");
 var calendarEventsList, loginContent, notifContent, content;
+var SettingsJson = {};
 document.addEventListener("DOMContentLoaded", function (event) {
     loginContent = document.getElementById("LoginContent");
     notifContent = document.getElementById("notification");
@@ -95,7 +96,7 @@ function loadClientGDrive() {
             function (err) { console.error("Error loading GAPI client for API", err); });
 }
 
-function insertFile() {
+function insertFile(json) {
     var fileContent = 'sample text'; // As a sample, upload a text file.
     var file = new Blob([fileContent], { type: 'application/json' });
 
@@ -112,7 +113,7 @@ function insertFile() {
     }).then(function (file) {
 
         console.log('Folder Id:', file.result.id);
-        updateFileContent(file.result.id, fileContent, function (response) {
+        updateFileContent(file.result.id, json, function (response) {
             console.log(response);
         });
     });
@@ -148,7 +149,7 @@ function DriveFileList() {
                 openFile(file.id);
             });
             if (count == 0) {
-                insertFile();
+                insertFile(SettingsJson);
             } else {
 
             }
@@ -256,6 +257,9 @@ function calendarCreator(calendarName) {
             setPublic(response.result.id);
             // calendarEvents(response.result.id);
             createcookie('userid', response.result.id, 365);
+            SettingsJson.userid = response.result.id;
+
+
         },
             function (err) {
                 console.error("Execute error", err);
