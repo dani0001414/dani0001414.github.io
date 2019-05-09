@@ -105,9 +105,7 @@ function updateFileContent(fileId, fileContent, callback) {
     xhr.responseType = 'json';
     xhr.onreadystatechange = function () {
         if (xhr.readyState != XMLHttpRequest.DONE) {
-            if(fileContent == "") {
-                location.reload();
-            }
+            
             return;
         }
         callback(xhr.response);
@@ -157,6 +155,9 @@ function openFile(fileId, json) {
         //Ha json nem üres akkor azt jelenti, hogy írunk bele
         if (json != null) {
             updateFileContent(fileId, json, function (response) {
+                if(json == "") {
+                    location.reload();
+                }
                 console.log(response);
             });
         } else {
