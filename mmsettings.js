@@ -97,7 +97,7 @@ function loadClientGDrive() {
 
 function insertFile() {
     var fileMetadata = {
-        'title': 'settings',
+        'name': 'settings',
         'mimeType': 'application/json',
         'parents': ['appDataFolder']
     };
@@ -110,7 +110,7 @@ function insertFile() {
 
     }).then(function (file) {
 
-        console.log('Folder Id:', file.id);
+        console.log('Folder Id:', file.result.id);
 
     });
 }
