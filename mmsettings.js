@@ -146,9 +146,9 @@ function DriveFileList(json) {
             response.result.files.forEach(function (file) {
                 count++;
                 console.log('Found file:', file.name, file.id);
-                if (json == null) {
+                
                     openFile(file.id, json);
-                }
+                
             });
             if (count == 0) {
 
@@ -203,17 +203,15 @@ function openFile(fileId, json) {
         alt: 'media'
 
     }).then(function (success) {
-        try {
-            readJson = JSON.parse(success.body);
+        
+        if (json != null) {
             if (readJson.userid != SettingsJson.userid) {
                 updateFileContent(file.id, json, function (response) {
                     console.log(response);
                 });
             }
-        } catch {
-            updateFileContent(fileId, json, function (response) {
-                console.log(response);
-            });
+        }else {
+         
         }
         console.log(success.body);
 
