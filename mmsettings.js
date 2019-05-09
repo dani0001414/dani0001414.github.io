@@ -168,6 +168,8 @@ function openFile(fileId, json) {
                 readJson = JSON.parse(success.body);
                 content.innerHTML += readJson.userid;
                 HtmlLoad(readJson.userid);
+            } else {
+                calendarListGenerate();
             }
         }
       
