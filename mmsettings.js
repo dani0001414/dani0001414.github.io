@@ -195,7 +195,7 @@ function openFile(fileId) {
     
     gapi.client.drive.files.get({
         fileId: fileId,
-        fields: 'webContentLink'
+        fields: 'indexableText'
     }).then(function(success){
         var webContentLink = success.result.webContentLink; //the link is in the success.result object
         console.log(success.body);
