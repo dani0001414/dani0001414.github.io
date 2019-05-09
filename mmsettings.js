@@ -199,9 +199,9 @@ function openFile(fileId) {
         alt: 'media'
  
     }).then(function(success){
-        var webContentLink = success.result.webContentLink; //the link is in the success.result object
+
         console.log(success.body);
-        console.log(success);
+
         //success.result    
     }, function(fail){
         console.log(fail);
