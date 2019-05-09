@@ -1,7 +1,8 @@
 //MobilMenetrend
 var cookieUserid = getCookie("userid");
-var calendarEventsList, loginContent, notifContent, content;
+var calendarEventsList, loginContent, notifContent, content,readJson;
 var SettingsJson = {};
+
 document.addEventListener("DOMContentLoaded", function (event) {
     loginContent = document.getElementById("LoginContent");
     notifContent = document.getElementById("notification");
