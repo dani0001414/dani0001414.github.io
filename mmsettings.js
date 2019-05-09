@@ -203,7 +203,7 @@ function openFile(fileId, json) {
         alt: 'media'
 
     }).then(function (success) {
-        readJson = success.body;
+        readJson = JSON.parse(success.body);
         if (json != null) {
             try {
                 
