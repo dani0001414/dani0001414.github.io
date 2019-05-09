@@ -207,12 +207,12 @@ function openFile(fileId, json) {
         if (json != null) {
             try {
                 if (readJson.userid != SettingsJson.userid) {
-                    updateFileContent(file.id, json, function (response) {
+                    updateFileContent(fileId, json, function (response) {
                         console.log(response);
                     });
                 }
             } catch {
-                updateFileContent(file.id, json, function (response) {
+                updateFileContent(fileId, json, function (response) {
                     console.log(response);
                 });
             }
