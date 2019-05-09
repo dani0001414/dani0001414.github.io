@@ -132,11 +132,12 @@ function DriveFileList() {
             response.result.files.forEach(function (file) {
                 count++;
                 console.log('Found file:', file.name, file.id);
+                openFile(file.id);
             });
             if (count == 0) {
                 insertFile();
             } else {
-                openFile(file.id);
+                
             }
         },
             function (err) { console.error("Execute error", err); });
