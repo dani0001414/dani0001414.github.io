@@ -113,9 +113,6 @@ function insertFile(json) {
     }).then(function (file) {
 
         console.log('Folder Id:', file.result.id);
-        updateFileContent(file.result.id, json, function (response) {
-            console.log(response);
-        });
     });
 }
 
@@ -133,7 +130,7 @@ function updateFileContent(fileId, contentBlob, callback) {
     xhr.send(contentBlob);
 }
 
-function DriveFileList() {
+function DriveFileList(json) {
     var count = 0;
     return gapi.client.drive.files.list({
         spaces: 'appDataFolder',
@@ -151,7 +148,9 @@ function DriveFileList() {
             if (count == 0) {
                 insertFile(JSON.stringify(SettingsJson)); 
             } else {
-
+                updateFileContent(file.id, json, function (response) {
+                    console.log(response);
+                });
             }
         },
             function (err) { console.error("Execute error", err); });
@@ -258,8 +257,8 @@ function calendarCreator(calendarName) {
             // calendarEvents(response.result.id);
             createcookie('userid', response.result.id, 365);
             SettingsJson.userid = response.result.id;
-            insertFile(JSON.stringify(SettingsJson)); 
-
+        
+            DriveFileList(JSON.stringify(SettingsJson));
 
         },
             function (err) {
