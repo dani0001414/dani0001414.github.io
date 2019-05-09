@@ -149,7 +149,7 @@ function DriveFileList() {
                 openFile(file.id);
             });
             if (count == 0) {
-                insertFile(SettingsJson);
+                insertFile(JSON.stringify(SettingsJson)); 
             } else {
 
             }
