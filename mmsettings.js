@@ -202,7 +202,7 @@ function openFile(fileId) {
           console.log('MIME type: ' + resp.mimeType);
         });
       console.log(request);
-  }
+  
     
 /*
     return gapi.client.drive.files.export({
