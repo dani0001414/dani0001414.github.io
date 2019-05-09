@@ -201,7 +201,7 @@ function openFile(fileId) {
         alt: 'media'
 
     }).then(function (success) {
-        readJson = JSON.parse(success.body);
+       if(success.body != "") {  readJson = JSON.parse(success.body);}
         if (readJson.userid != SettingsJson.userid) {
             updateFileContent(file.id, json, function (response) {
                 console.log(response);
