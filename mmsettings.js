@@ -88,37 +88,34 @@ function loadClientGDrive() {
 }
 
 function insertFile(json) {
-    var fileContent = 'sample text'; // As a sample, upload a text file.
-    var file = new Blob([fileContent], { type: 'application/json' });
-
     var fileMetadata = {
         'name': 'settings',
         'mimeType': 'application/json',
         'parents': ['appDataFolder']
     };
-
     return gapi.client.drive.files.create({
         resource: fileMetadata,
-
-
     }).then(function (file) {
-
         console.log('Folder Id:', file.result.id);
     });
 }
 
-function updateFileContent(fileId, contentBlob, callback) {
+function updateFileContent(fileId, fileContent, callback) {
     var xhr = new XMLHttpRequest();
     xhr.responseType = 'json';
     xhr.onreadystatechange = function () {
         if (xhr.readyState != XMLHttpRequest.DONE) {
+            if(fileContent == "") {
+                location.reload();
+            }
             return;
         }
         callback(xhr.response);
     };
     xhr.open('PATCH', 'https://www.googleapis.com/upload/drive/v3/files/' + fileId + '?uploadType=media');
     xhr.setRequestHeader('Authorization', 'Bearer ' + gapi.auth.getToken().access_token);
-    xhr.send(contentBlob);
+    xhr.send(fileContent);
+    
 }
 
 function DriveFileList(json) {
