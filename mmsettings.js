@@ -104,20 +104,33 @@ function insertFile() {
         'mimeType': 'application/json',
         'parents': ['appDataFolder']
     };
-    var media = {
-        mimeType: 'application/json',
-        body: fileContent
-    };
+    
     return gapi.client.drive.files.create({
         resource: fileMetadata,
-        media: media,
+
 
     }).then(function (file) {
 
         console.log('Folder Id:', file.result.id);
-
+        updateFileContent(file.result.id,file,function(response){
+            console.log(response);
+        });
     });
 }
+
+function updateFileContent(fileId, contentBlob, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.responseType = 'json';
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState != XMLHttpRequest.DONE) {
+        return;
+      }
+      callback(xhr.response);
+    };
+    xhr.open('PATCH', 'https://www.googleapis.com/upload/drive/v3/files/' + fileId + '?uploadType=media');
+    xhr.setRequestHeader('Authorization', 'Bearer ' + gapi.auth.getToken().access_token);
+    xhr.send(contentBlob);
+  }
 
 function DriveFileList() {
     var count = 0;
@@ -161,10 +174,18 @@ function DriveFileList() {
 }
 
 function openFile(fileId){
-   return gapi.client.drive.files.get({ 'fileId': fileId }).then(function(response){
-    console.log('Found file:', response);
-   });
+ 
 
+  return gapi.client.drive.files.export({
+    'fileId' : fileId,
+    'mimeType' : 'text/plain'
+}).then(function(success){
+    console.log(success);
+    //success.result    
+}, function(fail){
+    console.log(fail);
+    console.log('Error '+ fail.result.error.message);
+})
 }
 
 function calendarEvents(calID) {
