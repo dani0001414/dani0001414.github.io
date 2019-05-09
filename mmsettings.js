@@ -146,13 +146,14 @@ function DriveFileList(json) {
             response.result.files.forEach(function (file) {
                 count++;
                 console.log('Found file:', file.name, file.id);
-                openFile(file.id,json);
-
+                if (json == null) {
+                    openFile(file.id, json);
+                }
             });
             if (count == 0) {
-                if (json == null) {
-                    insertFile(JSON.stringify(SettingsJson));
-                }
+
+                insertFile(JSON.stringify(SettingsJson));
+
             } else {
 
             }
@@ -195,7 +196,7 @@ function downloadFile(file, callback) {
     }
 }
 
-function openFile(fileId,json) {
+function openFile(fileId, json) {
 
     return gapi.client.drive.files.get({
         fileId: fileId,
