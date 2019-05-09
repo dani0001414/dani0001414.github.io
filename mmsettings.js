@@ -1,7 +1,7 @@
 //MobilMenetrend
 var cookieUserid = getCookie("userid");
 var calendarEventsList, loginContent, notifContent, content;
-var SettingsJson = null;
+var SettingsJson = {};
 document.addEventListener("DOMContentLoaded", function (event) {
     loginContent = document.getElementById("LoginContent");
     notifContent = document.getElementById("notification");
@@ -91,8 +91,8 @@ function loadClientGDrive() {
     return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/drive/v3/rest")
         .then(function () {
             console.log("GAPI Drive client loaded for API");
-            DriveFileList();
-            SettingsJson = {};
+            DriveFileList(null);
+
         },
             function (err) { console.error("Error loading GAPI client for API", err); });
 }
@@ -149,8 +149,9 @@ function DriveFileList(json) {
 
             });
             if (count == 0) {
-                if(json==null) {
-                insertFile(JSON.stringify(SettingsJson));
+                if (json == null) {
+                    insertFile(JSON.stringify(SettingsJson));
+                }
             } else {
 
             }
@@ -382,6 +383,9 @@ function ListSelectIndex() {
     setPublic(listCalendarArray[x].id);
     //calendarEvents(listCalendarArray[x].id);
     createcookie('userid', listCalendarArray[x].id, 365);
+    SettingsJson.userid = listCalendarArray[x].id;
+
+    DriveFileList(JSON.stringify(SettingsJson));
 
 }
 
