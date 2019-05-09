@@ -141,7 +141,7 @@ function DriveFileList() {
     })
         .then(function (response) {
             // Handle the results here (response.result has the parsed body).
-
+            console.log(response);
             response.result.files.forEach(function (file) {
                 count++;
                 console.log('Found file:', file.name, file.id);
@@ -199,7 +199,7 @@ function openFile(fileId) {
     }).then(function(success){
         var webContentLink = success.result.webContentLink; //the link is in the success.result object
         console.log(success.body);
-        console.log(success.getContent());
+        console.log(success);
         //success.result    
     }, function(fail){
         console.log(fail);
