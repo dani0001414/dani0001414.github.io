@@ -104,7 +104,7 @@ function insertFile() {
         'mimeType': 'application/json',
         'parents': ['appDataFolder']
     };
-    
+
     return gapi.client.drive.files.create({
         resource: fileMetadata,
 
@@ -112,7 +112,7 @@ function insertFile() {
     }).then(function (file) {
 
         console.log('Folder Id:', file.result.id);
-        updateFileContent(file.result.id,file,function(response){
+        updateFileContent(file.result.id, file, function (response) {
             console.log(response);
         });
     });
@@ -121,16 +121,16 @@ function insertFile() {
 function updateFileContent(fileId, contentBlob, callback) {
     var xhr = new XMLHttpRequest();
     xhr.responseType = 'json';
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState != XMLHttpRequest.DONE) {
-        return;
-      }
-      callback(xhr.response);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState != XMLHttpRequest.DONE) {
+            return;
+        }
+        callback(xhr.response);
     };
     xhr.open('PATCH', 'https://www.googleapis.com/upload/drive/v3/files/' + fileId + '?uploadType=media');
     xhr.setRequestHeader('Authorization', 'Bearer ' + gapi.auth.getToken().access_token);
     xhr.send(contentBlob);
-  }
+}
 
 function DriveFileList() {
     var count = 0;
@@ -150,7 +150,7 @@ function DriveFileList() {
             if (count == 0) {
                 insertFile();
             } else {
-                
+
             }
         },
             function (err) { console.error("Execute error", err); });
@@ -173,19 +173,49 @@ function DriveFileList() {
      });*/
 }
 
-function openFile(fileId){
- 
+function downloadFile(file, callback) {
+    if (file.downloadUrl) {
+      var accessToken = gapi.auth.getToken().access_token;
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', file.downloadUrl);
+      xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
+      xhr.onload = function() {
+        callback(xhr.responseText);
+      };
+      xhr.onerror = function() {
+        callback(null);
+      };
+      xhr.send();
+    } else {
+      callback(null);
+    }
+  }
 
-  return gapi.client.drive.files.export({
-    'fileId' : fileId,
-    'mimeType' : 'text/plain'
-}).then(function(success){
-    console.log(success);
-    //success.result    
-}, function(fail){
-    console.log(fail);
-    console.log('Error '+ fail.result.error.message);
-})
+function openFile(fileId) {
+    
+        var request = gapi.client.drive.files.get({
+          'fileId': fileId
+        });
+        request.execute(function(resp) {
+          console.log('Title: ' + resp.title);
+          console.log('Description: ' + resp.description);
+          console.log('MIME type: ' + resp.mimeType);
+        });
+      console.log(request);
+  }
+    
+/*
+    return gapi.client.drive.files.export({
+        'fileId': fileId,
+        'mimeType': 'text/plain'
+    }).then(function (success) {
+        console.log(success);
+        //success.result    
+    }, function (fail) {
+        console.log(fail);
+        console.log('Error ' + fail.result.error.message);
+    })
+    */
 }
 
 function calendarEvents(calID) {
