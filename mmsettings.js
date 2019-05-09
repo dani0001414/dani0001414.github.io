@@ -106,7 +106,7 @@ function insertFile() {
     };
     var media = {
         mimeType: 'application/json',
-        body: file
+        body: fileContent
     };
     return gapi.client.drive.files.create({
         resource: fileMetadata,
