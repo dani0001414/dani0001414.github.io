@@ -206,11 +206,11 @@ function openFile(fileId, json) {
 
         if (json != null) {
             try {
-                if (readJson.userid != SettingsJson.userid) {
+                
                     updateFileContent(fileId, json, function (response) {
                         console.log(response);
                     });
-                }
+                
             } catch {
                 updateFileContent(fileId, json, function (response) {
                     console.log(response);
