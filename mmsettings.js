@@ -188,7 +188,7 @@ function calendarEvents(calID) {
             console.log("Response", response);
             calendarEventsList = response.result;
             content.innerHTML = JSON.stringify(calendarEventsList.items);
-            content.innerHTML += "<button  onclick=\"DriveFileList(''));\">Választás Törlése</button>"
+            content.innerHTML += "<button  onclick=\"DriveFileList('');\">Választás Törlése</button>"
 
         },
             function (err) {
