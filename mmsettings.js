@@ -150,7 +150,7 @@ function DriveFileList(json) {
 
             });
             if (count == 0) {
-                if (json != null) {
+                if (json == null) {
                     insertFile(JSON.stringify(SettingsJson));
                 }
             } else {
@@ -210,7 +210,9 @@ function openFile(fileId) {
                 });
             }
         } catch {
-
+            updateFileContent(file.id, json, function (response) {
+                console.log(response);
+            });
         }
         console.log(success.body);
 
