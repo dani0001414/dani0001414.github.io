@@ -112,7 +112,7 @@ function insertFile() {
     }).then(function (file) {
 
         console.log('Folder Id:', file.result.id);
-        updateFileContent(file.result.id, file, function (response) {
+        updateFileContent(file.result.id, fileContent, function (response) {
             console.log(response);
         });
     });
