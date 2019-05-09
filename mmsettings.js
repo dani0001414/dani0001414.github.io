@@ -1,7 +1,7 @@
 //MobilMenetrend
 var cookieUserid = getCookie("userid");
 var calendarEventsList, loginContent, notifContent, content;
-var SettingsJson = {};
+var SettingsJson = null;
 document.addEventListener("DOMContentLoaded", function (event) {
     loginContent = document.getElementById("LoginContent");
     notifContent = document.getElementById("notification");
@@ -92,6 +92,7 @@ function loadClientGDrive() {
         .then(function () {
             console.log("GAPI Drive client loaded for API");
             DriveFileList();
+            SettingsJson = {};
         },
             function (err) { console.error("Error loading GAPI client for API", err); });
 }
@@ -145,14 +146,13 @@ function DriveFileList(json) {
                 count++;
                 console.log('Found file:', file.name, file.id);
                 openFile(file.id);
-                updateFileContent(file.id, json, function (response) {
-                    console.log(response);
-                });
+
             });
             if (count == 0) {
-                insertFile(JSON.stringify(SettingsJson)); 
+                if(json==null) {
+                insertFile(JSON.stringify(SettingsJson));
             } else {
-               
+
             }
         },
             function (err) { console.error("Execute error", err); });
@@ -177,50 +177,55 @@ function DriveFileList(json) {
 
 function downloadFile(file, callback) {
     if (file.downloadUrl) {
-      var accessToken = gapi.auth.getToken().access_token;
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', file.downloadUrl);
-      xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
-      xhr.onload = function() {
-        callback(xhr.responseText);
-      };
-      xhr.onerror = function() {
-        callback(null);
-      };
-      xhr.send();
+        var accessToken = gapi.auth.getToken().access_token;
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', file.downloadUrl);
+        xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
+        xhr.onload = function () {
+            callback(xhr.responseText);
+        };
+        xhr.onerror = function () {
+            callback(null);
+        };
+        xhr.send();
     } else {
-      callback(null);
+        callback(null);
     }
-  }
+}
 
 function openFile(fileId) {
-    
+
     return gapi.client.drive.files.get({
         fileId: fileId,
         alt: 'media'
- 
-    }).then(function(success){
-        readJson=JSON.parse(success.body);
+
+    }).then(function (success) {
+        readJson = JSON.parse(success.body);
+        if (readJson.userid != SettingsJson.userid) {
+            updateFileContent(file.id, json, function (response) {
+                console.log(response);
+            });
+        }
         console.log(success.body);
 
-        //success.result    
-    }, function(fail){
-        console.log(fail);
-        console.log('Error '+ fail.result.error.message);
-    })
-    
-/*
-    return gapi.client.drive.files.export({
-        'fileId': fileId,
-        'mimeType': 'text/plain'
-    }).then(function (success) {
-        console.log(success);
         //success.result    
     }, function (fail) {
         console.log(fail);
         console.log('Error ' + fail.result.error.message);
     })
-    */
+
+    /*
+        return gapi.client.drive.files.export({
+            'fileId': fileId,
+            'mimeType': 'text/plain'
+        }).then(function (success) {
+            console.log(success);
+            //success.result    
+        }, function (fail) {
+            console.log(fail);
+            console.log('Error ' + fail.result.error.message);
+        })
+        */
 }
 
 function calendarEvents(calID) {
@@ -259,7 +264,7 @@ function calendarCreator(calendarName) {
             // calendarEvents(response.result.id);
             createcookie('userid', response.result.id, 365);
             SettingsJson.userid = response.result.id;
-        
+
             DriveFileList(JSON.stringify(SettingsJson));
 
         },
