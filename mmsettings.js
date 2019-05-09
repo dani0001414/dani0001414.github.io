@@ -1,6 +1,6 @@
 //MobilMenetrend
 var cookieUserid = getCookie("userid");
-var calendarEventsList, loginContent, notifContent, content,readJson;
+var calendarEventsList, loginContent, notifContent, content, readJson;
 var SettingsJson = {};
 
 document.addEventListener("DOMContentLoaded", function (event) {
@@ -202,11 +202,15 @@ function openFile(fileId) {
         alt: 'media'
 
     }).then(function (success) {
-       if(success.body != "") {  readJson = JSON.parse(success.body);}
-        if (readJson.userid != SettingsJson.userid) {
-            updateFileContent(file.id, json, function (response) {
-                console.log(response);
-            });
+        try {
+            readJson = JSON.parse(success.body);
+            if (readJson.userid != SettingsJson.userid) {
+                updateFileContent(file.id, json, function (response) {
+                    console.log(response);
+                });
+            }
+        } catch {
+
         }
         console.log(success.body);
 
