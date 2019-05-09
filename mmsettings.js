@@ -194,7 +194,7 @@ function downloadFile(file, callback) {
 
 function openFile(fileId) {
     
-    gapi.client.drive.files.get({
+    return gapi.client.drive.files.get({
         fileId: fileId,
         alt: 'media'
  
