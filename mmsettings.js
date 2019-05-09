@@ -338,11 +338,8 @@ function deleteAllCookies() {
 }
 
 function HtmlLoad(userid){
-    if (cookieUserid != 0) {
+    
         notifContent.innerHTML = "Kiválasztott Naptár Eseményei JSON-ban(Fejlesztés Alatt)!";
         // calendarListGenerate();
         calendarEvents(userid);
-    } else {
-        calendarListGenerate();
-    }
 }
