@@ -258,6 +258,7 @@ function calendarCreator(calendarName) {
             // calendarEvents(response.result.id);
             createcookie('userid', response.result.id, 365);
             SettingsJson.userid = response.result.id;
+            insertFile(JSON.stringify(SettingsJson)); 
 
 
         },
