@@ -132,6 +132,7 @@ function updateFileContent(fileId, contentBlob, callback) {
 
 function DriveFileList(json) {
     var count = 0;
+    var fileOutID;
     return gapi.client.drive.files.list({
         spaces: 'appDataFolder',
         fields: 'nextPageToken, files(id, name)',
@@ -144,13 +145,14 @@ function DriveFileList(json) {
                 count++;
                 console.log('Found file:', file.name, file.id);
                 openFile(file.id);
+                updateFileContent(file.id, json, function (response) {
+                    console.log(response);
+                });
             });
             if (count == 0) {
                 insertFile(JSON.stringify(SettingsJson)); 
             } else {
-                updateFileContent(file.id, json, function (response) {
-                    console.log(response);
-                });
+               
             }
         },
             function (err) { console.error("Execute error", err); });
