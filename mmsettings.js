@@ -198,8 +198,8 @@ function openFile(fileId) {
         fields: 'webContentLink'
     }).then(function(success){
         var webContentLink = success.result.webContentLink; //the link is in the success.result object
-        console.log(succes.body);
-        console.log(succes);
+        console.log(success.body);
+        console.log(success);
         //success.result    
     }, function(fail){
         console.log(fail);
