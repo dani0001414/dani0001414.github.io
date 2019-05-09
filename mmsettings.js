@@ -197,13 +197,13 @@ function downloadFile(file, callback) {
 }
 
 function openFile(fileId, json) {
-
+    readJson
     return gapi.client.drive.files.get({
         fileId: fileId,
         alt: 'media'
 
     }).then(function (success) {
-
+        readJson = success.body;
         if (json != null) {
             try {
                 
@@ -219,9 +219,9 @@ function openFile(fileId, json) {
 
 
         } else {
-
+            content.innerHTML += readJson.userid;
         }
-        console.log(success.body);
+        
 
         //success.result    
     }, function (fail) {
