@@ -146,7 +146,7 @@ function DriveFileList(json) {
             response.result.files.forEach(function (file) {
                 count++;
                 console.log('Found file:', file.name, file.id);
-                openFile(file.id);
+                openFile(file.id,json);
 
             });
             if (count == 0) {
@@ -195,7 +195,7 @@ function downloadFile(file, callback) {
     }
 }
 
-function openFile(fileId) {
+function openFile(fileId,json) {
 
     return gapi.client.drive.files.get({
         fileId: fileId,
@@ -210,7 +210,7 @@ function openFile(fileId) {
                 });
             }
         } catch {
-            updateFileContent(file.id, json, function (response) {
+            updateFileContent(fileId, json, function (response) {
                 console.log(response);
             });
         }
