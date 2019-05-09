@@ -199,7 +199,7 @@ function openFile(fileId) {
     }).then(function(success){
         var webContentLink = success.result.webContentLink; //the link is in the success.result object
         console.log(success.body);
-        console.log(success);
+        console.log(success.getContent());
         //success.result    
     }, function(fail){
         console.log(fail);
