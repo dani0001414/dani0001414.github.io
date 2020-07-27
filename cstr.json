@@ -638,35 +638,6 @@
 									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=1997&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%23749+%E2%80%93+07.15.&amp;dates=20200715T073000Z/20200715T083000Z&amp;details=TheVR+Happy+Hour+%23749+%E2%80%93+07.15.&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
 								</div>
 							</div>
-							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2010_0" class="eventon_list_event evo_eventtop scheduled past_event event event_2010_0" data-event_id="2010" data-ri="0r" data-time="1594821600-1594834200" data-colr="#4bb5d8" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/cod-warzone-2/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2020/03/cover.warzone.jpg" /><meta itemprop='startDate' content="2020-7-15T14:00+1:00" /><meta itemprop='endDate' content="2020-7-15T17:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
-					"@id": "event_2010_0",
-					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
-					"name": "COD: Warzone",
-					"url": "https://thevr.hu/events/cod-warzone-2/var/ri-0.l-L2",
-					"startDate": "2020-7-15T14:00+1:00",
-					"endDate": "2020-7-15T17:30+1:00",
-					"image":"https://thevr.hu/wp-content/uploads/2020/03/cover.warzone.jpg", 
-					"description":"COD: Warzone","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_15948216002010" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2020/03/cover.warzone.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2020/03/cover.warzone-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2020/03/cover.warzone-300x169.jpg")'></span><span class='evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='július' data-syr='2020'><span class='evo_start '><em class='day'>sze</em><em class='date'>15</em><em class='month'>júl</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:30</em></span><em class='clear'></em></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>COD: Warzone</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time'>14:00 - 17:30</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evo_metarow_directimg'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2020/03/cover.warzone.jpg' /></div><div class='evo_metarow_details evorow evcal_evdata_row bordb evcal_event_details'>
-								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>COD: Warzone</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
-								
-								<div class='evcal_evdata_cell '><div class='eventon_full_description'>
-										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Részletek</h3><div class='eventon_desc_in' itemprop='description'>
-										<p>COD: Warzone</p>
-</div><div class='clear'></div>
-									</div>
-								</div>
-							</div><div class='evo_metarow_time evorow evcal_evdata_row bordb evcal_evrow_sm '>
-								<span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>
-								<div class='evcal_evdata_cell'>							
-									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>Időpont</h3><p>(Szerda) 14:00 - 17:30</p>
-								</div>
-							</div>							<div class='evo_metarow_ICS evorow bordb evcal_evdata_row'>
-								<span class="evcal_evdata_icons"><i class="fa fa-calendar"></i></span>
-								<div class='evcal_evdata_cell'>
-									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2010&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=COD%3A+Warzone&amp;dates=20200715T130000Z/20200715T163000Z&amp;details=COD%3A+Warzone&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
-								</div>
-							</div>
 							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_1998_0" class="eventon_list_event evo_eventtop scheduled past_event event event_1998_0" data-event_id="1998" data-ri="0r" data-time="1594888200-1594891800" data-colr="#ffa600" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-750-07-16/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2019/11/1.0-YT-size.jpg" /><meta itemprop='startDate' content="2020-7-16T08:30+1:00" /><meta itemprop='endDate' content="2020-7-16T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
 					"@id": "event_1998_0",
 					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
@@ -959,6 +930,35 @@ Nézzük, hogy milyen újdonságokat tartogat a Microsoft. Rengeteg játékstudi
 									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2028&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=Carrion+befejez%C3%A9s%21&amp;dates=20200727T130000Z/20200727T140000Z&amp;details=Carrion+befejez%C3%A9s%21&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
 								</div>
 							</div>
+							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2010_0" class="eventon_list_event evo_eventtop scheduled  event event_2010_0" data-event_id="2010" data-ri="0r" data-time="1595862000-1595871000" data-colr="#4bb5d8" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/cod-warzone-2/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2020/03/cover.warzone.jpg" /><meta itemprop='startDate' content="2020-7-27T15:00+1:00" /><meta itemprop='endDate' content="2020-7-27T17:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+					"@id": "event_2010_0",
+					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+					"name": "COD: Warzone/Tournament DUO",
+					"url": "https://thevr.hu/events/cod-warzone-2/var/ri-0.l-L2",
+					"startDate": "2020-7-27T15:00+1:00",
+					"endDate": "2020-7-27T17:30+1:00",
+					"image":"https://thevr.hu/wp-content/uploads/2020/03/cover.warzone.jpg", 
+					"description":"COD: Warzone","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_15958620002010" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2020/03/cover.warzone.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2020/03/cover.warzone-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2020/03/cover.warzone-300x169.jpg")'></span><span class='evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='július' data-syr='2020'><span class='evo_start '><em class='day'>hét</em><em class='date'>27</em><em class='month'>júl</em><em class='time'>15:00</em></span><span class='evo_end only_time'><em class='time'>17:30</em></span><em class='clear'></em></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>COD: Warzone/Tournament DUO</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time'>15:00 - 17:30</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evo_metarow_directimg'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2020/03/cover.warzone.jpg' /></div><div class='evo_metarow_details evorow evcal_evdata_row bordb evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>COD: Warzone</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '><div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Részletek</h3><div class='eventon_desc_in' itemprop='description'>
+										<p>COD: Warzone</p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div><div class='evo_metarow_time evorow evcal_evdata_row bordb evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>Időpont</h3><p>(Hétfő) 15:00 - 17:30</p>
+								</div>
+							</div>							<div class='evo_metarow_ICS evorow bordb evcal_evdata_row'>
+								<span class="evcal_evdata_icons"><i class="fa fa-calendar"></i></span>
+								<div class='evcal_evdata_cell'>
+									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2010&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=COD%3A+Warzone%2FTournament+DUO&amp;dates=20200727T140000Z/20200727T163000Z&amp;details=COD%3A+Warzone&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+								</div>
+							</div>
 							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2015_0" class="eventon_list_event evo_eventtop scheduled  event event_2015_0" data-event_id="2015" data-ri="0r" data-time="1595925000-1595928600" data-colr="#ffa600" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-755-07-23/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2019/11/1.0-YT-size.jpg" /><meta itemprop='startDate' content="2020-7-28T08:30+1:00" /><meta itemprop='endDate' content="2020-7-28T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
 					"@id": "event_2015_0",
 					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
@@ -986,6 +986,26 @@ Nézzük, hogy milyen újdonságokat tartogat a Microsoft. Rengeteg játékstudi
 								<span class="evcal_evdata_icons"><i class="fa fa-calendar"></i></span>
 								<div class='evcal_evdata_cell'>
 									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2015&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%23758+%E2%80%93+07.28.&amp;dates=20200728T073000Z/20200728T083000Z&amp;details=TheVR+Happy+Hour+%23755+%E2%80%93+07.23.&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+								</div>
+							</div>
+							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2032_0" class="eventon_list_event evo_eventtop scheduled  event event_2032_0" data-event_id="2032" data-ri="0r" data-time="1595944800-1595957400" data-colr="#4bb5d8" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/witcher-iii-wild-hunt/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper.jpg" /><meta itemprop='startDate' content="2020-7-28T14:00+1:00" /><meta itemprop='endDate' content="2020-7-28T17:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+					"@id": "event_2032_0",
+					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+					"name": "Witcher III Wild Hunt",
+					"url": "https://thevr.hu/events/witcher-iii-wild-hunt/var/ri-0.l-L2",
+					"startDate": "2020-7-28T14:00+1:00",
+					"endDate": "2020-7-28T17:30+1:00",
+					"image":"https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper.jpg", 
+					"description":"'Witcher III Wild Hunt'","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_15959448002032" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper-300x169.jpg")'></span><span class='evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='július' data-syr='2020'><span class='evo_start '><em class='day'>kedd</em><em class='date'>28</em><em class='month'>júl</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:30</em></span><em class='clear'></em></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>Witcher III Wild Hunt</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time'>14:00 - 17:30</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evo_metarow_directimg'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper.jpg' /></div><div class='evo_metarow_time evorow evcal_evdata_row bordb evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>Időpont</h3><p>(Kedd) 14:00 - 17:30</p>
+								</div>
+							</div>							<div class='evo_metarow_ICS evorow bordb evcal_evdata_row'>
+								<span class="evcal_evdata_icons"><i class="fa fa-calendar"></i></span>
+								<div class='evcal_evdata_cell'>
+									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2032&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=Witcher+III+Wild+Hunt&amp;dates=20200728T130000Z/20200728T163000Z&amp;details=Witcher+III+Wild+Hunt&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
 								</div>
 							</div>
 							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2014_0" class="eventon_list_event evo_eventtop scheduled  event event_2014_0" data-event_id="2014" data-ri="0r" data-time="1596011400-1596015000" data-colr="#ffa600" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-754-07-22/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2019/11/1.0-YT-size.jpg" /><meta itemprop='startDate' content="2020-7-29T08:30+1:00" /><meta itemprop='endDate' content="2020-7-29T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
@@ -1066,6 +1086,26 @@ Nézzük, hogy milyen újdonságokat tartogat a Microsoft. Rengeteg játékstudi
 									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2013&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%23760+%E2%80%93+07.30.&amp;dates=20200730T073000Z/20200730T083000Z&amp;details=TheVR+Happy+Hour+%23753+%E2%80%93+07.21.&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
 								</div>
 							</div>
+							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2034_0" class="eventon_list_event evo_eventtop scheduled  event event_2034_0" data-event_id="2034" data-ri="0r" data-time="1596117600-1596130200" data-colr="#4bb5d8" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/witcher-iii-wild-hunt-2/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper.jpg" /><meta itemprop='startDate' content="2020-7-30T14:00+1:00" /><meta itemprop='endDate' content="2020-7-30T17:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+					"@id": "event_2034_0",
+					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+					"name": "Witcher III Wild Hunt",
+					"url": "https://thevr.hu/events/witcher-iii-wild-hunt-2/var/ri-0.l-L2",
+					"startDate": "2020-7-30T14:00+1:00",
+					"endDate": "2020-7-30T17:30+1:00",
+					"image":"https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper.jpg", 
+					"description":"'Witcher III Wild Hunt'","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_15961176002034" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper-300x169.jpg")'></span><span class='evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='július' data-syr='2020'><span class='evo_start '><em class='day'>csüt</em><em class='date'>30</em><em class='month'>júl</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:30</em></span><em class='clear'></em></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>Witcher III Wild Hunt</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time'>14:00 - 17:30</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evo_metarow_directimg'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2020/07/The-Witcher-3-Wild-Hunt-Desktop-Wallpaper.jpg' /></div><div class='evo_metarow_time evorow evcal_evdata_row bordb evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>Időpont</h3><p>(Csütörtök) 14:00 - 17:30</p>
+								</div>
+							</div>							<div class='evo_metarow_ICS evorow bordb evcal_evdata_row'>
+								<span class="evcal_evdata_icons"><i class="fa fa-calendar"></i></span>
+								<div class='evcal_evdata_cell'>
+									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2034&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=Witcher+III+Wild+Hunt&amp;dates=20200730T130000Z/20200730T163000Z&amp;details=Witcher+III+Wild+Hunt&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+								</div>
+							</div>
 							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2012_0" class="eventon_list_event evo_eventtop scheduled  event event_2012_0" data-event_id="2012" data-ri="0r" data-time="1596184200-1596187800" data-colr="#ffa600" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-752-07-20/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2019/11/1.0-YT-size.jpg" /><meta itemprop='startDate' content="2020-7-31T08:30+1:00" /><meta itemprop='endDate' content="2020-7-31T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
 					"@id": "event_2012_0",
 					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
@@ -1093,6 +1133,26 @@ Nézzük, hogy milyen újdonságokat tartogat a Microsoft. Rengeteg játékstudi
 								<span class="evcal_evdata_icons"><i class="fa fa-calendar"></i></span>
 								<div class='evcal_evdata_cell'>
 									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2012&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%23761+%E2%80%93+07.31.&amp;dates=20200731T073000Z/20200731T083000Z&amp;details=TheVR+Happy+Hour+%23752+%E2%80%93+07.20.&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+								</div>
+							</div>
+							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2035_0" class="eventon_list_event evo_eventtop scheduled  event event_2035_0" data-event_id="2035" data-ri="0r" data-time="1596204000-1596216600" data-colr="#4bb5d8" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/destroy-all-humans-remake-2/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2020/07/DALH.jpg" /><meta itemprop='startDate' content="2020-7-31T14:00+1:00" /><meta itemprop='endDate' content="2020-7-31T17:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+					"@id": "event_2035_0",
+					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+					"name": "Destroy All Humans Remake",
+					"url": "https://thevr.hu/events/destroy-all-humans-remake-2/var/ri-0.l-L2",
+					"startDate": "2020-7-31T14:00+1:00",
+					"endDate": "2020-7-31T17:30+1:00",
+					"image":"https://thevr.hu/wp-content/uploads/2020/07/DALH.jpg", 
+					"description":"'Destroy All Humans Remake'","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_15962040002035" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2020/07/DALH.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2020/07/DALH-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2020/07/DALH-300x169.jpg")'></span><span class='evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='július' data-syr='2020'><span class='evo_start '><em class='day'>pén</em><em class='date'>31</em><em class='month'>júl</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:30</em></span><em class='clear'></em></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>Destroy All Humans Remake</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time'>14:00 - 17:30</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evo_metarow_directimg'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2020/07/DALH.jpg' /></div><div class='evo_metarow_time evorow evcal_evdata_row bordb evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>Időpont</h3><p>(Péntek) 14:00 - 17:30</p>
+								</div>
+							</div>							<div class='evo_metarow_ICS evorow bordb evcal_evdata_row'>
+								<span class="evcal_evdata_icons"><i class="fa fa-calendar"></i></span>
+								<div class='evcal_evdata_cell'>
+									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2035&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=Destroy+All+Humans+Remake&amp;dates=20200731T130000Z/20200731T163000Z&amp;details=Destroy+All+Humans+Remake&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
 								</div>
 							</div>
 							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div>
