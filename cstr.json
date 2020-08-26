@@ -884,33 +884,66 @@ Pár órára belenézhetünk a felújított Mafiaba, természetesen veletek egy�
 									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2058&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%23779+%E2%80%93+08.28.&amp;dates=20200828T073000Z/20200828T083000Z&amp;details=TheVR+Happy+Hour+%23779+%E2%80%93+08.28.&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
 								</div>
 							</div>
-							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2092_0" class="eventon_list_event evo_eventtop scheduled  event event_2092_0" data-event_id="2092" data-ri="0r" data-time="1598623200-1598635800" data-colr="#4bb5d8" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/2092/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0.jpg" /><meta itemprop='startDate' content="2020-8-28T14:00+1:00" /><meta itemprop='endDate' content="2020-8-28T17:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2092_0" class="eventon_list_event evo_eventtop scheduled  event event_2092_0" data-event_id="2092" data-ri="0r" data-time="1598623200-1598633100" data-colr="#4bb5d8" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/2092/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0.jpg" /><meta itemprop='startDate' content="2020-8-28T14:00+1:00" /><meta itemprop='endDate' content="2020-8-28T16:45+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
 					"@id": "event_2092_0",
 					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
-					"name": "Tell Me Why",
+					"name": "Tell Me Why: Chapter 1",
 					"url": "https://thevr.hu/events/2092/var/ri-0.l-L2",
 					"startDate": "2020-8-28T14:00+1:00",
-					"endDate": "2020-8-28T17:30+1:00",
+					"endDate": "2020-8-28T16:45+1:00",
 					"image":"https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0.jpg", 
-					"description":"Tell Me Why","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_15986232002092" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0-300x169.jpg")'></span><span class='evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='augusztus' data-syr='2020'><span class='evo_start '><em class='day'>pén</em><em class='date'>28</em><em class='month'>aug</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:30</em></span><em class='clear'></em></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>Tell Me Why</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time'>14:00 - 17:30</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evo_metarow_directimg'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0.jpg' /></div><div class='evo_metarow_details evorow evcal_evdata_row bordb evcal_event_details'>
-								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>Tell Me Why</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+					"description":"Tell Me Why: Chapter 1","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_15986232002092" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0-300x169.jpg")'></span><span class='evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='augusztus' data-syr='2020'><span class='evo_start '><em class='day'>pén</em><em class='date'>28</em><em class='month'>aug</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>16:45</em></span><em class='clear'></em></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>Tell Me Why: Chapter 1</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time'>14:00 - 16:45</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evo_metarow_directimg'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2020/08/tell.me_.why-0.jpg' /></div><div class='evo_metarow_details evorow evcal_evdata_row bordb evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>Tell Me Why: Chapter 1</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
 								
 								<div class='evcal_evdata_cell '><div class='eventon_full_description'>
 										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Részletek</h3><div class='eventon_desc_in' itemprop='description'>
-										<p>Tell Me Why</p>
+										<p>Tell Me Why: Chapter 1</p>
 </div><div class='clear'></div>
 									</div>
 								</div>
 							</div><div class='evo_metarow_time evorow evcal_evdata_row bordb evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>
 								<div class='evcal_evdata_cell'>							
-									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>Időpont</h3><p>(Péntek) 14:00 - 17:30</p>
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>Időpont</h3><p>(Péntek) 14:00 - 16:45</p>
 								</div>
 							</div>							<div class='evo_metarow_ICS evorow bordb evcal_evdata_row'>
 								<span class="evcal_evdata_icons"><i class="fa fa-calendar"></i></span>
 								<div class='evcal_evdata_cell'>
-									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2092&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=Tell+Me+Why&amp;dates=20200828T130000Z/20200828T163000Z&amp;details=Tell+Me+Why&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2092&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=Tell+Me+Why%3A+Chapter+1&amp;dates=20200828T130000Z/20200828T154500Z&amp;details=Tell+Me+Why%3A+Chapter+1&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+								</div>
+							</div>
+							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_2096_0" class="eventon_list_event evo_eventtop scheduled  event event_2096_0" data-event_id="2096" data-ri="0r" data-time="1598634000-1598637600" data-colr="#4bb5d8" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/eeeerdekes/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2019/11/happy-and-sad.jpg" /><meta itemprop='startDate' content="2020-8-28T17:00+1:00" /><meta itemprop='endDate' content="2020-8-28T18:00+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+					"@id": "event_2096_0",
+					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+					"name": "??? ÉÉÉÉRDEKES",
+					"url": "https://thevr.hu/events/eeeerdekes/var/ri-0.l-L2",
+					"startDate": "2020-8-28T17:00+1:00",
+					"endDate": "2020-8-28T18:00+1:00",
+					"image":"https://thevr.hu/wp-content/uploads/2019/11/happy-and-sad.jpg", 
+					"description":"<!-- wp:paragraph --> <p>??? ÉÉÉÉRDEKES #nemhorror</p> <!-- /wp:paragraph -->","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_15986340002096" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2019/11/happy-and-sad.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2019/11/happy-and-sad-300x271.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2019/11/happy-and-sad-300x271.jpg")'></span><span class='evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='augusztus' data-syr='2020'><span class='evo_start '><em class='day'>pén</em><em class='date'>28</em><em class='month'>aug</em><em class='time'>17:00</em></span><span class='evo_end only_time'><em class='time'>18:00</em></span><em class='clear'></em></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>??? ÉÉÉÉRDEKES</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time'>17:00 - 18:00</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evo_metarow_directimg'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2019/11/happy-and-sad.jpg' /></div><div class='evo_metarow_details evorow evcal_evdata_row bordb evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
+??? ÉÉÉÉRDEKES #nemhorror
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '><div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Részletek</h3><div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:paragraph --></p>
+<p>??? ÉÉÉÉRDEKES #nemhorror</p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div><div class='evo_metarow_time evorow evcal_evdata_row bordb evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock-o'></i></span>Időpont</h3><p>(Péntek) 17:00 - 18:00</p>
+								</div>
+							</div>							<div class='evo_metarow_ICS evorow bordb evcal_evdata_row'>
+								<span class="evcal_evdata_icons"><i class="fa fa-calendar"></i></span>
+								<div class='evcal_evdata_cell'>
+									<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=2096&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=%3F%3F%3F+%C3%89%C3%89%C3%89%C3%89RDEKES&amp;dates=20200828T160000Z/20200828T170000Z&amp;details=%0A%3F%3F%3F+%C3%89%C3%89%C3%89%C3%89RDEKES+%23nemhorror%0A&amp;location= - ' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
 								</div>
 							</div>
 							<div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div>
