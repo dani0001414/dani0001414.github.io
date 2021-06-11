@@ -737,7 +737,7 @@
             var ErrorLinkText = document.createTextNode("[Hiba jelzése]");
             ErrorLink.appendChild(ErrorLinkText);
             //versionLink.title = "my title text";
-            ErrorLink.href = "https://discordapp.com/invite/4YKn62P";
+            ErrorLink.href = "https://forum.thevr.hu/t/mobilbarat-menetrend-thevr-ninjon-update-twitter-discord/";
             document.getElementsByTagName('font')[0].appendChild(ErrorLink);
 
             brcreator("font", "tag", 0);
