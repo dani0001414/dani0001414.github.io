@@ -39,7 +39,7 @@
     //ERROR HIBA KÜLDŐ...CSAK JAVASCIRPT-EL EGYBEKEZELT VERZIÓKHOZ TÖBBIHEZ ha crossorig tag nem működik
     //Alap oldal betöltő Twitch API kulcs.
     var ApiKey = "kimne78kx3ncx6brgo4mv6wki5h1ko";
-    var scriptVersion = "2.7.0";
+    var scriptVersion = "👉2.7.1👈";
 
 
     //////////////Ha nincs Streamer Adat akkor az alap az, hogy a TheVR-t tölti be.
