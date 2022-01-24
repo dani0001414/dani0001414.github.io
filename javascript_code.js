@@ -1065,7 +1065,7 @@
             //document.getElementById(i).style.display = 'block';
             //document.getElementById(brId+"_created").style.display = 'block';
             if(events[i].event_subtitle != null) {
-                document.getElementById(titleId + "_created").innerHTML = "<p><b>" + events[i].event_title + "</b><br><p style='font-size: 12px; margin-top: 0px'>"+events[i].event_subtitle+"</p></p>";
+                document.getElementById(titleId + "_created").innerHTML = "<p style='margin-bottom:1px'><b>" + events[i].event_title + "</b><br><p style='font-size: 12px; margin-top: 0px'>"+events[i].event_subtitle+"</p></p>";
             } else {
                 document.getElementById(titleId + "_created").innerHTML = "<p><b>" + events[i].event_title + "</b></p>";
             }
