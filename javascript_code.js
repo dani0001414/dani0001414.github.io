@@ -39,7 +39,7 @@
     //ERROR HIBA KÜLDŐ...CSAK JAVASCIRPT-EL EGYBEKEZELT VERZIÓKHOZ TÖBBIHEZ ha crossorig tag nem működik
     //Alap oldal betöltő Twitch API kulcs.
     var ApiKey = "kimne78kx3ncx6brgo4mv6wki5h1ko";
-    var scriptVersion = "👉2.7.1👈";
+    var scriptVersion = "👉2.7.2👈";
 
 
     //////////////Ha nincs Streamer Adat akkor az alap az, hogy a TheVR-t tölti be.
@@ -756,7 +756,7 @@
     //HttpGet(getLink, EventsArray);
     //HttpPost("https://gql.twitch.tv/gql", EventsArray2);
     HttpGetFeature("https://script.google.com/macros/s/AKfycbwNIIdxzydP9Xa85GHqXI6jxZwAJ9a7Er8HKk0dtyl-u_gcOUu8/exec?streamer="+streamer,EventsArray);
-    HttpGetFeature("https://script.google.com/macros/s/AKfycbxCbGnpDeEjNd7Nwpm76MrIfc2efatkbGZyXszSgA45-e1d87M/exec", new_features);
+    HttpGetFeature("https://script.google.com/macros/s/AKfycbwL6y6zbaX4h2QycbrQZuqGJsMZubW8yQDGfvDS9CR9EgRvXjiHwnb8wQtjrwMOeqP8/exec", new_features);
 
 
     function PUBGStatDownload(data) {
@@ -1065,7 +1065,7 @@
             //document.getElementById(i).style.display = 'block';
             //document.getElementById(brId+"_created").style.display = 'block';
             if(events[i].event_subtitle != null) {
-                document.getElementById(titleId + "_created").innerHTML = "<p style='margin-bottom:1px'><b>" + events[i].event_title + "</b><br><p style='font-size: 12px; margin-top: 0px'>"+events[i].event_subtitle+"</p></p>";
+                document.getElementById(titleId + "_created").innerHTML = "<p style='margin-bottom:5px'><b>" + events[i].event_title + "</b><br><p style='font-size: 12px; margin-top: 0px'>"+events[i].event_subtitle+"</p></p>";
             } else {
                 document.getElementById(titleId + "_created").innerHTML = "<p><b>" + events[i].event_title + "</b></p>";
             }
