@@ -1064,7 +1064,12 @@
 
             //document.getElementById(i).style.display = 'block';
             //document.getElementById(brId+"_created").style.display = 'block';
-            document.getElementById(titleId + "_created").innerHTML = "<p><b>" + events[i].event_title + "</b><br><p style='font-size: 15px'>"+events[i].event_subtitle+"</p></p>";
+            if(events[i].event_subtitle != null) {
+                document.getElementById(titleId + "_created").innerHTML = "<p><b>" + events[i].event_title + "</b><br><p style='font-size: 15px'>"+events[i].event_subtitle+"</p></p>";
+            } else {
+                document.getElementById(titleId + "_created").innerHTML = "<p><b>" + events[i].event_title + "</b></p>";
+            }
+            
             document.getElementById(coverId + "_created").innerHTML = "<img src=\"" + cover + "\" class=\"aspect__fill\" width=\"320\">";
             document.getElementById(timeId + "_created").innerHTML = "<div style=\"margin-bottom:1px;\">" + startTime[0] + "</div><div style=\"margin-bottom:4px\">" + startTime[1] + "-" + endTime[1] + "</div>";
 
