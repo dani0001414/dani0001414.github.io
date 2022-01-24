@@ -1381,12 +1381,12 @@
             popupContent.innerHTML = contentContainer;
         }
         if (i == "new") {
-            popupContent.innerHTML = "<br><br><span style=\"color: red\"><b>[Újdonságok]</b></span><br><br>" + newFunction.content;
+            popupContent.innerHTML = "<br><br><span style=\"color: red\"><b>[Újdonságok]</b></span><br><br><div style=\"max-width:400px\" align=\"left\"><font size=\"2\">" + newFunction.content+"</font></div><br>";
             createcookie(newFeatureCookie, newFunction.timestamp, 365);
         }
         if (i == "JsNew") {
             var textContent = "<div style=\"max-width:400px\" align=\"left\"><font size=\"2\">Sikeresen felfrissült a " + scriptVersion + " verzióra!<br>Frissítésről:</font></div>" + newFunction.content;
-            popupContent.innerHTML = "<br><br><span style=\"color: red\"><b>[Új Funkciók érkeztek!]</b></span><br><br>" + textContent;
+            popupContent.innerHTML = "<br><br><span style=\"color: red\"><b>[Új Funkciók érkeztek!]</b></span><br><br><div style=\"max-width:400px\" align=\"left\"><font size=\"2\">" + textContent+"</font></div><br>";
 
             createcookie(streamer + "_scriptversion", scriptVersion, 365);
         }
