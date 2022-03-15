@@ -7,7 +7,7 @@
 					"endDate": "2022-3-15",
 					"image":"https://thevr.hu/wp-content/uploads/2022/03/20210311kokarda.jpg", 
 					"description":"<p><!-- wp:paragraph --></p> <p>Március 15 Time!</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff0000;" id="evc_164730240014958" class="hasFtIMG desc_trig sin_val evcal_list_a allday" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/03/20210311kokarda.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/03/20210311kokarda-300x200.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/03/20210311kokarda-300x200.jpg")' ></span><span class='evcal_cblock ' data-bgcolor='#ff0000' data-smon='március' data-syr='2022'><span class='evo_start '><em class='date'>15</em><em class='month'>már</em><em class='time'>Egész nap</em></span></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>NEM LESZ STREAM</span><span class='evo_below_title'><span class='evcal_event_subtitle' >nemzeti ünnep!</span></span><span class='evcal_desc_info' ><em class='evcal_time evo_tz_time'><em class='evcal_alldayevent_text'>(Egész nap: kedd)</em></em> </span><span class='evcal_desc3'><span class='evo_event_progress' ><span class='evo_epbar_o'><span class='evo_ep_bar'><b style='width:41%'></b></span></span><span class='evo_ep_time evo_countdowner' data-gap='50902' data-dur='86399' data-exp_act='' data-n='' data-ds='Days' data-d='Day' data-t='Hátralévő idő'></span></span></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff0000;" id="evc_164730240014958" class="hasFtIMG desc_trig sin_val evcal_list_a allday" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/03/20210311kokarda.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/03/20210311kokarda-300x200.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/03/20210311kokarda-300x200.jpg")' ></span><span class='evcal_cblock ' data-bgcolor='#ff0000' data-smon='március' data-syr='2022'><span class='evo_start '><em class='date'>15</em><em class='month'>már</em><em class='time'>Egész nap</em></span></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>NEM LESZ STREAM</span><span class='evo_below_title'><span class='evcal_event_subtitle' >nemzeti ünnep!</span></span><span class='evcal_desc_info' ><em class='evcal_time evo_tz_time'><em class='evcal_alldayevent_text'>(Egész nap: kedd)</em></em> </span><span class='evcal_desc3'><span class='evo_event_progress' ><span class='evo_epbar_o'><span class='evo_ep_bar'><b style='width:41%'></b></span></span><span class='evo_ep_time evo_countdowner' data-gap='50304' data-dur='86399' data-exp_act='' data-n='' data-ds='Days' data-d='Day' data-t='Hátralévő idő'></span></span></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
 					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/03/20210311kokarda.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
@@ -58,5 +58,161 @@ Március 15 Time!
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
 										<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=14961&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=VAGY+M%C3%89GIS+LESZ%3F&amp;dates=20220315T190000Z/20220315T210000Z&amp;ctz=Europe/Vienna&amp;details=VAGY+M%C3%89GIS+LESZ%3F&amp;location=' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_14963_0" class="eventon_list_event evo_eventtop scheduled  event event_14963_0" data-event_id="14963" data-ri="0r" data-time="1647419400-1647423000" data-colr="#ff8400" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1135-03-16/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg" /><meta itemprop='startDate' content="2022-3-16T08:30+1:00" /><meta itemprop='endDate' content="2022-3-16T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+					"@id": "event_14963_0",
+					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+					"name": "TheVR Happy Hour #1135 - 03.16.",
+					"url": "https://thevr.hu/events/thevr-happy-hour-1135-03-16/var/ri-0.l-L2",
+					"startDate": "2022-3-16T08:30+1:00",
+					"endDate": "2022-3-16T09:30+1:00",
+					"image":"https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg", 
+					"description":"<p><!-- wp:paragraph --></p> <p>TheVR Happy Hour #1135 &#8211; 03.16.</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_164741940014963" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span><span class='evcal_cblock ' data-bgcolor='#ff8400' data-smon='március' data-syr='2022'><span class='evo_start '><em class='date'>16</em><em class='month'>már</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1135 - 03.16.</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
+TheVR Happy Hour #1135 &#8211; 03.16.
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Részletek</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:paragraph --></p>
+<p>TheVR Happy Hour #1135 &#8211; 03.16.</p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Szerda) 08:30 - 09:30</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=14963&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%231135+-+03.16.&amp;dates=20220316T073000Z/20220316T083000Z&amp;ctz=Europe/Berlin&amp;details=TheVR+Happy+Hour+%231135+-+03.16.&amp;location=' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_14964_0" class="eventon_list_event evo_eventtop scheduled  event event_14964_0" data-event_id="14964" data-ri="0r" data-time="1647505800-1647509400" data-colr="#ff8400" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1136-03-17/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg" /><meta itemprop='startDate' content="2022-3-17T08:30+1:00" /><meta itemprop='endDate' content="2022-3-17T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+					"@id": "event_14964_0",
+					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+					"name": "TheVR Happy Hour #1136 - 03.17.",
+					"url": "https://thevr.hu/events/thevr-happy-hour-1136-03-17/var/ri-0.l-L2",
+					"startDate": "2022-3-17T08:30+1:00",
+					"endDate": "2022-3-17T09:30+1:00",
+					"image":"https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg", 
+					"description":"<p><!-- wp:paragraph --></p> <p>TheVR Happy Hour #1136 &#8211; 03.17.</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_164750580014964" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span><span class='evcal_cblock ' data-bgcolor='#ff8400' data-smon='március' data-syr='2022'><span class='evo_start '><em class='date'>17</em><em class='month'>már</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1136 - 03.17.</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
+TheVR Happy Hour #1136 &#8211; 03.17.
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Részletek</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:paragraph --></p>
+<p>TheVR Happy Hour #1136 &#8211; 03.17.</p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Csütörtök) 08:30 - 09:30</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=14964&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%231136+-+03.17.&amp;dates=20220317T073000Z/20220317T083000Z&amp;ctz=Europe/Berlin&amp;details=TheVR+Happy+Hour+%231136+-+03.17.&amp;location=' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_14965_0" class="eventon_list_event evo_eventtop scheduled  event event_14965_0" data-event_id="14965" data-ri="0r" data-time="1647592200-1647595800" data-colr="#ff8400" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1137-03-18/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg" /><meta itemprop='startDate' content="2022-3-18T08:30+1:00" /><meta itemprop='endDate' content="2022-3-18T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+					"@id": "event_14965_0",
+					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+					"name": "TheVR Happy Hour #1137 - 03.18.",
+					"url": "https://thevr.hu/events/thevr-happy-hour-1137-03-18/var/ri-0.l-L2",
+					"startDate": "2022-3-18T08:30+1:00",
+					"endDate": "2022-3-18T09:30+1:00",
+					"image":"https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg", 
+					"description":"<p><!-- wp:paragraph --></p> <p>TheVR Happy Hour #1137 &#8211; 03.18.</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_164759220014965" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span><span class='evcal_cblock ' data-bgcolor='#ff8400' data-smon='március' data-syr='2022'><span class='evo_start '><em class='date'>18</em><em class='month'>már</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1137 - 03.18.</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
+TheVR Happy Hour #1137 &#8211; 03.18.
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Részletek</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:paragraph --></p>
+<p>TheVR Happy Hour #1137 &#8211; 03.18.</p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Péntek) 08:30 - 09:30</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=14965&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%231137+-+03.18.&amp;dates=20220318T073000Z/20220318T083000Z&amp;ctz=Europe/Berlin&amp;details=TheVR+Happy+Hour+%231137+-+03.18.&amp;location=' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_14967_0" class="eventon_list_event evo_eventtop scheduled  event event_14967_0" data-event_id="14967" data-ri="0r" data-time="1647597600-1647604800" data-colr="#4bb5d8" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/horizon-forbidden-west-8/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2022/02/horizon-forbidden-west.jpg" /><meta itemprop='startDate' content="2022-3-18T10:00+1:00" /><meta itemprop='endDate' content="2022-3-18T12:00+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+					"@id": "event_14967_0",
+					"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+					"name": "Horizon Forbidden West",
+					"url": "https://thevr.hu/events/horizon-forbidden-west-8/var/ri-0.l-L2",
+					"startDate": "2022-3-18T10:00+1:00",
+					"endDate": "2022-3-18T12:00+1:00",
+					"image":"https://thevr.hu/wp-content/uploads/2022/02/horizon-forbidden-west.jpg", 
+					"description":"<p><!-- wp:paragraph --></p> <p>Horizon Forbidden West</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_164759760014967" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/02/horizon-forbidden-west.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/02/horizon-forbidden-west-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/02/horizon-forbidden-west-300x169.jpg")' ></span><span class='evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='március' data-syr='2022'><span class='evo_start '><em class='date'>18</em><em class='month'>már</em><em class='time'>10:00</em></span><span class='evo_end only_time'><em class='time'>12:00</em></span></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>Horizon Forbidden West</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time evo_tz_time'>10:00 - 12:00</em> </span><span class='evcal_desc3'></span></span><em class='clear'></em></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/02/horizon-forbidden-west.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
+Horizon Forbidden West
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Részletek</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:paragraph --></p>
+<p>Horizon Forbidden West</p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Péntek) 10:00 - 12:00</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=14967&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=Horizon+Forbidden+West&amp;dates=20220318T090000Z/20220318T110000Z&amp;ctz=Europe/Berlin&amp;details=Horizon+Forbidden+West&amp;location=' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
 									</div>
 								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div>
