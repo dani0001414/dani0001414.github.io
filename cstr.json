@@ -1,43 +1,4 @@
-<div id="event_15282_0" class="eventon_list_event evo_eventtop scheduled  event event_15282_0" data-event_id="15282" data-ri="0r" data-time="1654213500-1654216200" data-colr="#ff0000" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/state-of-play/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2022/05/stateofplay_june2.webp" /><meta itemprop='startDate' content="2022-6-2T23:45+1:00" /><meta itemprop='endDate' content="2022-6-3T00:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
-				"@id": "event_15282_0",
-				"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
-				"name": "State of Play",
-				"url": "https://thevr.hu/events/state-of-play/var/ri-0.l-L2",
-				"startDate": "2022-6-2T23:45+1:00",
-				"endDate": "2022-6-3T00:30+1:00",
-				"image":"https://thevr.hu/wp-content/uploads/2022/05/stateofplay_june2.webp", 
-				"description":"<p><!-- wp:paragraph --></p> <p>State of Play</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff0000;" id="evc_165421350015282" class="hasFtIMG desc_trig mul_val evcal_list_a" data-ux_val="1"  ><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/05/stateofplay_june2.webp' data-thumb='https://thevr.hu/wp-content/uploads/2022/05/stateofplay_june2-300x169.webp' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/05/stateofplay_june2-300x169.webp")' ></span><span class='evcal_cblock ' data-bgcolor='#ff0000' data-smon='június' data-syr='2022'><span class='evo_start '><em class='date'>02</em><em class='month'>jún</em><em class='time'><i t="y">(jún 2)</i>23:45</em></span><span class='evo_end '><em class='date'>03</em><em class='time'><i t="y">(jún 3)</i>00:30</em></span></span><span class='evcal_desc evo_info hide_eventtopdata '  ><span class='evo_above_title'></span><span class='evcal_desc2 evcal_event_title' itemprop='name'>State of Play</span><span class='evo_below_title'></span><span class='evcal_desc_info' ><em class='evcal_time evo_tz_time'>23:45 - 00:30 <em class="evo_endday">(3)</em></em> </span><span class='evcal_desc3'><span class='evo_event_progress' ><span class='evo_epbar_o'><span class='evo_ep_bar'><b style='width:100%'></b></span></span><span class='evo_ep_time evo_countdowner' data-gap='-6694' data-dur='2700' data-exp_act='' data-n='' data-ds='Days' data-d='Day' data-t='Hátralévő idő'></span></span></span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/05/stateofplay_june2.webp' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
-					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
-								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
-State of Play
-
-</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
-								
-								<div class='evcal_evdata_cell '>
-									<div class='eventon_full_description'>
-										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Részletek</h3>
-										<div class='eventon_desc_in' itemprop='description'>
-										<p><!-- wp:paragraph --></p>
-<p>State of Play</p>
-<p><!-- /wp:paragraph --></p>
-</div><div class='clear'></div>
-									</div>
-								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
-					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
-								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
-								<div class='evcal_evdata_cell'>							
-									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>2 (Csütörtök) 23:45 - 3 (Péntek) 00:30</span></p>
-								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
-					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
-									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
-									<div class='evcal_evdata_cell'>
-										<p><a href='https://thevr.hu/wp-admin/admin-ajax.php?action=eventon_ics_download&amp;event_id=15282&amp;ri=0' class='evo_ics_nCal' title='Add hozzá a naptáradhoz!'>Naptárhoz adás</a><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=State+of+Play&amp;dates=20220602T214500Z/20220602T223000Z&amp;ctz=Europe/Vienna&amp;details=State+of+Play&amp;location=' target='_blank' class='evo_ics_gCal' title='Add hozzá a Google Naptáradhoz!'>Google Naptárhoz adás</a></p>	
-									</div>
-								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_15269_0" class="eventon_list_event evo_eventtop scheduled  event event_15269_0" data-event_id="15269" data-ri="0r" data-time="1654245000-1654248600" data-colr="#ff8400" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1189-06-03/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg" /><meta itemprop='startDate' content="2022-6-3T08:30+1:00" /><meta itemprop='endDate' content="2022-6-3T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+<div id="event_15269_0" class="eventon_list_event evo_eventtop scheduled  event event_15269_0" data-event_id="15269" data-ri="0r" data-time="1654245000-1654248600" data-colr="#ff8400" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1189-06-03/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg" /><meta itemprop='startDate' content="2022-6-3T08:30+1:00" /><meta itemprop='endDate' content="2022-6-3T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
 				"@id": "event_15269_0",
 				"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
 				"name": "TheVR Happy Hour #1189 - 06.03.",
