@@ -7,8 +7,8 @@
 				"endDate": "2022-11-28T09:30+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p>TheVR Happy Hour #1308 &#8211; 11.28.</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166962420015766" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>28</em><em class='month'>nov</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1308 - 11.28.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166962420015766" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>28</em><em class='month'>nov</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1308 - 11.28.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 TheVR Happy Hour #1308 &#8211; 11.28.
@@ -25,13 +25,13 @@ TheVR Happy Hour #1308 &#8211; 11.28.
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Hétfő) 08:30 - 09:30</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -46,8 +46,8 @@ TheVR Happy Hour #1308 &#8211; 11.28.
 				"endDate": "2022-11-28T17:00+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2022/11/wp1872476-outlast-wallpapers.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p><em>OUTLAST</em></p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_166964400015771" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/11/wp1872476-outlast-wallpapers.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/11/wp1872476-outlast-wallpapers-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/11/wp1872476-outlast-wallpapers-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>28</em><em class='month'>nov</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>OUTLAST</span><span class='evoet_subtitle evo_below_title'><span class='evcal_event_subtitle' >Indul a bünti stream!</span></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 17:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/11/wp1872476-outlast-wallpapers.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_166964400015771" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/11/wp1872476-outlast-wallpapers.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/11/wp1872476-outlast-wallpapers-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/11/wp1872476-outlast-wallpapers-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>28</em><em class='month'>nov</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>OUTLAST</span><span class='evoet_subtitle evo_below_title'><span class='evcal_event_subtitle' >Indul a bünti stream!</span></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 17:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/11/wp1872476-outlast-wallpapers.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 OUTLAST
@@ -64,13 +64,13 @@ OUTLAST
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Hétfő) 14:00 - 17:00</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -85,8 +85,8 @@ OUTLAST
 				"endDate": "2022-11-29T09:30+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p>TheVR Happy Hour #1309 &#8211; 11.29.</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166971060015767" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>29</em><em class='month'>nov</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1309 - 11.29.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166971060015767" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>29</em><em class='month'>nov</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1309 - 11.29.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 TheVR Happy Hour #1309 &#8211; 11.29.
@@ -103,13 +103,13 @@ TheVR Happy Hour #1309 &#8211; 11.29.
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Kedd) 08:30 - 09:30</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -124,8 +124,8 @@ TheVR Happy Hour #1309 &#8211; 11.29.
 				"endDate": "2022-11-29T17:00+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2021/05/Aputest.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p>APUTEST PODCAST</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_166973040015754" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/05/Aputest.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/05/Aputest-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/05/Aputest-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>29</em><em class='month'>nov</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>APUTEST PODCAST</span><span class='evoet_subtitle evo_below_title'><span class='evcal_event_subtitle' >RAGNARÖK ÉS GAME AWARDS JELÖLTEK!!!</span></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 17:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/05/Aputest.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_166973040015754" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/05/Aputest.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/05/Aputest-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/05/Aputest-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>29</em><em class='month'>nov</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>APUTEST PODCAST</span><span class='evoet_subtitle evo_below_title'><span class='evcal_event_subtitle' >RAGNARÖK ÉS GAME AWARDS JELÖLTEK!!!</span></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 17:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/05/Aputest.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 APUTEST PODCAST
@@ -142,13 +142,13 @@ APUTEST PODCAST
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Kedd) 14:00 - 17:00</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -163,8 +163,8 @@ APUTEST PODCAST
 				"endDate": "2022-11-30T09:30+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p>TheVR Happy Hour #1310 &#8211; 11.30.</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166979700015768" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>30</em><em class='month'>nov</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1310 - 11.30.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166979700015768" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>30</em><em class='month'>nov</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1310 - 11.30.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 TheVR Happy Hour #1310 &#8211; 11.30.
@@ -181,13 +181,13 @@ TheVR Happy Hour #1310 &#8211; 11.30.
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Szerda) 08:30 - 09:30</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -202,8 +202,8 @@ TheVR Happy Hour #1310 &#8211; 11.30.
 				"endDate": "2022-11-30T17:00+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1290017.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p><em>Warhammer 40 000: Darktide</em></p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_166981680015772" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1290017.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1290017-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1290017-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>30</em><em class='month'>nov</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>Warhammer 40 000: Darktide</span><span class='evoet_subtitle evo_below_title'><span class='evcal_event_subtitle' >Hard Mode</span></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 17:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1290017.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_166981680015772" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1290017.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1290017-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1290017-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='november' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>30</em><em class='month'>nov</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>Warhammer 40 000: Darktide</span><span class='evoet_subtitle evo_below_title'><span class='evcal_event_subtitle' >Hard Mode</span></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 17:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1290017.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 Warhammer 40 000: Darktide
@@ -220,13 +220,13 @@ Warhammer 40 000: Darktide
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Szerda) 14:00 - 17:00</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -241,8 +241,8 @@ Warhammer 40 000: Darktide
 				"endDate": "2022-12-1T09:30+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p>TheVR Happy Hour #1311 &#8211; 12.01.</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166988340015769" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>01</em><em class='month'>dec</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1311 - 12.01.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166988340015769" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>01</em><em class='month'>dec</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1311 - 12.01.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 TheVR Happy Hour #1311 &#8211; 12.01.
@@ -259,13 +259,13 @@ TheVR Happy Hour #1311 &#8211; 12.01.
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Csütörtök) 08:30 - 09:30</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -280,8 +280,8 @@ TheVR Happy Hour #1311 &#8211; 12.01.
 				"endDate": "2022-12-1T17:00+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1289089.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p><em>Gungrave G.O.R.E</em></p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_166990320015774" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1289089.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1289089-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1289089-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>01</em><em class='month'>dec</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>Gungrave G.O.R.E</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 17:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1289089.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #4bb5d8;" id="evc_166990320015774" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1289089.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1289089-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1289089-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#4bb5d8' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>01</em><em class='month'>dec</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>Gungrave G.O.R.E</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 17:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/11/cropped-1920-1080-1289089.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 Gungrave G.O.R.E
@@ -298,13 +298,13 @@ Gungrave G.O.R.E
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Csütörtök) 14:00 - 17:00</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -319,8 +319,8 @@ Gungrave G.O.R.E
 				"endDate": "2022-12-2T09:30+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p>TheVR Happy Hour #1312 &#8211; 12.02.</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166996980015770" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>02</em><em class='month'>dec</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1312 - 12.02.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff8400;" id="evc_166996980015770" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff8400' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>02</em><em class='month'>dec</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1312 - 12.02.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 09:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/01/1.0-YT-size.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 TheVR Happy Hour #1312 &#8211; 12.02.
@@ -337,13 +337,13 @@ TheVR Happy Hour #1312 &#8211; 12.02.
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Péntek) 08:30 - 09:30</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -358,8 +358,8 @@ TheVR Happy Hour #1312 &#8211; 12.02.
 				"endDate": "2022-12-9T11:30+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2022/11/unnamed.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p><em>THE GAME AWARDS</em></p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff0000;" id="evc_167057460015752" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/11/unnamed.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/11/unnamed-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/11/unnamed-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff0000' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>09</em><em class='month'>dec</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>11:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>THE GAME AWARDS</span><span class='evoet_subtitle evo_below_title'><span class='evcal_event_subtitle' >2022</span></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 11:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/11/unnamed.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff0000;" id="evc_167057460015752" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2022/11/unnamed.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2022/11/unnamed-300x169.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2022/11/unnamed-300x169.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff0000' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>09</em><em class='month'>dec</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>11:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>THE GAME AWARDS</span><span class='evoet_subtitle evo_below_title'><span class='evcal_event_subtitle' >2022</span></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>08:30 - 11:30</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2022/11/unnamed.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 THE GAME AWARDS
@@ -376,13 +376,13 @@ THE GAME AWARDS
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Péntek) 08:30 - 11:30</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -397,8 +397,8 @@ THE GAME AWARDS
 				"endDate": "2022-12-21T23:59+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p>Lego stream</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff0000;" id="evc_167163120015575" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/11/lego-300x200.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/11/lego-300x200.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff0000' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>21</em><em class='month'>dec</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>23:59</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>Lego stream</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 23:59</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff0000;" id="evc_167163120015575" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/11/lego-300x200.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/11/lego-300x200.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff0000' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>21</em><em class='month'>dec</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>23:59</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>Lego stream</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>14:00 - 23:59</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 Lego stream
@@ -415,13 +415,13 @@ Lego stream
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Szerda) 14:00 - 23:59</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
@@ -436,8 +436,8 @@ Lego stream
 				"endDate": "2022-12-22T06:00+1:00",
 				"image":"https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg", 
 				"description":"<p><!-- wp:paragraph --></p> <p>Lego stream</p> <p><!-- /wp:paragraph --></p> ","eventStatus":"https://schema.org/EventScheduled"}</script></div>
-				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff0000;" id="evc_167166720015576" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/11/lego-300x200.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/11/lego-300x200.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff0000' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>22</em><em class='month'>dec</em><em class='time'>00:00</em></span><span class='evo_end only_time'><em class='time'>06:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>Lego stream</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>00:00 - 06:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div class='evocard_box ftimage' data-c='' 
-					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg' /></div></div></div><div class='evocard_row'><div class='evocard_box eventdetails' data-c='' 
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff0000;" id="evc_167166720015576" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2021/11/lego-300x200.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2021/11/lego-300x200.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff0000' data-smon='december' data-syr='2022' data-bub=''><span class='evo_start '><em class='date'>22</em><em class='month'>dec</em><em class='time'>00:00</em></span><span class='evo_end only_time'><em class='time'>06:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>Lego stream</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'>00:00 - 06:00</em> </span></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2021/11/lego-scaled.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
 					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
 								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Részletek</h3><p>
 Lego stream
@@ -454,13 +454,13 @@ Lego stream
 </div><div class='clear'></div>
 									</div>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box time' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
 					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
 								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
 								<div class='evcal_evdata_cell'>							
 									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Időpont</h3><p><span class='evo_eventcard_time_t'>(Csütörtök) 00:00 - 06:00</span></p>
 								</div>
-							</div></div></div><div class='evocard_row'><div class='evocard_box addtocal' data-c='' 
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
 					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
 									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
 									<div class='evcal_evdata_cell'>
