@@ -1,1 +1,253 @@
-<div class='eventon_list_event no_events'><p class='no_events' >No Events</p></div>
+<div id="event_5838_0" class="eventon_list_event evo_eventtop scheduled  event event_5838_0" data-event_id="5838" data-ri="0r" data-time="1704702600-1704706200" data-colr="#e8941e" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1558-01-08/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp" /><meta itemprop='startDate' content="2024-1-8T08:30+1:00" /><meta itemprop='endDate' content="2024-1-8T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+				"@id": "event_5838_0",
+				"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+				"eventStatus":"https://schema.org/EventScheduled",
+				"name": "TheVR Happy Hour #1558 - 01.08.",
+				"url": "https://thevr.hu/events/thevr-happy-hour-1558-01-08/var/ri-0.l-L2",
+				"startDate": "2024-1-8T08:30+1:00",
+				"endDate": "2024-1-8T09:30+1:00",
+				"image":"https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp", 
+				"description":"<p><!-- wp:pattern {'slug':'ajde_events/blocks'} /--></p> <p><!-- wp:paragraph --></p> <p><strong>TheVR Happy Hour #1558 &#8211; 01.08. </strong></p> <p><!-- /wp:paragraph --></p> "}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #e8941e;" id="evc_17047026005838" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' data-thumb='https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp' style='background-image:url("https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#e8941e' data-smon='january' data-syr='2024' data-bub=''><span class='evo_start '><em class='date'>08</em><em class='month'>jan</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1558 - 01.08.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'><i class='fa fa-clock-o'></i>08:30 - 09:30</em> </span></span><span class='evoet_data' data-d="{&quot;loc.n&quot;:&quot;&quot;,&quot;orgs&quot;:[],&quot;tags&quot;:[]}" data-bgc="#e8941e" data-bggrad="" ></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Event Details</h3><p>
+
+TheVR Happy Hour #1558 &#8211; 01.08. 
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Event Details</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:pattern {"slug":"ajde_events/blocks"} /--></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>TheVR Happy Hour #1558 &#8211; 01.08. </strong></p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Time</h3><p><span class='evo_eventcard_time_t'>(Monday) 08:30 - 09:30</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%231558+-+01.08.&amp;dates=20240108T073000Z/20240108T083000Z&amp;ctz=Europe/Budapest&amp;details=TheVR+Happy+Hour+%231558+-+01.08.&amp;location=' target='_blank' class='evo_ics_gCal' title='Add to google calendar'>GoogleCal</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_5843_0" class="eventon_list_event evo_eventtop scheduled  event event_5843_0" data-event_id="5843" data-ri="0r" data-time="1704722400-1704733200" data-colr="#ff3b3b" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/lesz-stream-de-vajon-mi-3/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2023/01/majom.jpg" /><meta itemprop='startDate' content="2024-1-8T14:00+1:00" /><meta itemprop='endDate' content="2024-1-8T17:00+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+				"@id": "event_5843_0",
+				"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+				"eventStatus":"https://schema.org/EventScheduled",
+				"name": "Lesz Stream! De vajon mi?!",
+				"url": "https://thevr.hu/events/lesz-stream-de-vajon-mi-3/var/ri-0.l-L2",
+				"startDate": "2024-1-8T14:00+1:00",
+				"endDate": "2024-1-8T17:00+1:00",
+				"image":"https://thevr.hu/wp-content/uploads/2023/01/majom.jpg", 
+				"description":"<p><!-- wp:pattern {'slug':'ajde_events/blocks'} /--></p> <p><!-- wp:paragraph --></p> <p>Stream YouTube-on!</p> <p><!-- /wp:paragraph --></p> "}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #ff3b3b;" id="evc_17047224005843" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2023/01/majom.jpg' data-thumb='https://thevr.hu/wp-content/uploads/2023/01/majom-300x188.jpg' style='background-image:url("https://thevr.hu/wp-content/uploads/2023/01/majom-300x188.jpg")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#ff3b3b' data-smon='january' data-syr='2024' data-bub=''><span class='evo_start '><em class='date'>08</em><em class='month'>jan</em><em class='time'>14:00</em></span><span class='evo_end only_time'><em class='time'>17:00</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>Lesz Stream! De vajon mi?!</span><span class='evoet_subtitle evo_below_title'><span class='evcal_event_subtitle' >Stream YouTube-on!</span></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'><i class='fa fa-clock-o'></i>14:00 - 17:00</em> </span></span><span class='evoet_data' data-d="{&quot;loc.n&quot;:&quot;&quot;,&quot;orgs&quot;:[],&quot;tags&quot;:[]}" data-bgc="#ff3b3b" data-bggrad="" ></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2023/01/majom.jpg' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Event Details</h3><p>
+
+Stream YouTube-on!
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Event Details</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:pattern {"slug":"ajde_events/blocks"} /--></p>
+<p><!-- wp:paragraph --></p>
+<p>Stream YouTube-on!</p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Time</h3><p><span class='evo_eventcard_time_t'>(Monday) 14:00 - 17:00</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=Lesz+Stream%21+De+vajon+mi%3F%21&amp;dates=20240108T130000Z/20240108T160000Z&amp;ctz=Europe/Budapest&amp;details=Lesz+Stream%21+De+vajon+mi%3F%21&amp;location=' target='_blank' class='evo_ics_gCal' title='Add to google calendar'>GoogleCal</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_5839_0" class="eventon_list_event evo_eventtop scheduled  event event_5839_0" data-event_id="5839" data-ri="0r" data-time="1704789000-1704792600" data-colr="#e8941e" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1559-01-09/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp" /><meta itemprop='startDate' content="2024-1-9T08:30+1:00" /><meta itemprop='endDate' content="2024-1-9T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+				"@id": "event_5839_0",
+				"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+				"eventStatus":"https://schema.org/EventScheduled",
+				"name": "TheVR Happy Hour #1559 - 01.09.",
+				"url": "https://thevr.hu/events/thevr-happy-hour-1559-01-09/var/ri-0.l-L2",
+				"startDate": "2024-1-9T08:30+1:00",
+				"endDate": "2024-1-9T09:30+1:00",
+				"image":"https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp", 
+				"description":"<p><!-- wp:pattern {'slug':'ajde_events/blocks'} /--></p> <p><!-- wp:paragraph --></p> <p><strong>TheVR Happy Hour #1559 &#8211; 01.09. </strong></p> <p><!-- /wp:paragraph --></p> "}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #e8941e;" id="evc_17047890005839" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' data-thumb='https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp' style='background-image:url("https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#e8941e' data-smon='january' data-syr='2024' data-bub=''><span class='evo_start '><em class='date'>09</em><em class='month'>jan</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1559 - 01.09.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'><i class='fa fa-clock-o'></i>08:30 - 09:30</em> </span></span><span class='evoet_data' data-d="{&quot;loc.n&quot;:&quot;&quot;,&quot;orgs&quot;:[],&quot;tags&quot;:[]}" data-bgc="#e8941e" data-bggrad="" ></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Event Details</h3><p>
+
+TheVR Happy Hour #1559 &#8211; 01.09. 
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Event Details</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:pattern {"slug":"ajde_events/blocks"} /--></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>TheVR Happy Hour #1559 &#8211; 01.09. </strong></p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Time</h3><p><span class='evo_eventcard_time_t'>(Tuesday) 08:30 - 09:30</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%231559+-+01.09.&amp;dates=20240109T073000Z/20240109T083000Z&amp;ctz=Europe/Budapest&amp;details=TheVR+Happy+Hour+%231559+-+01.09.&amp;location=' target='_blank' class='evo_ics_gCal' title='Add to google calendar'>GoogleCal</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_5840_0" class="eventon_list_event evo_eventtop scheduled  event event_5840_0" data-event_id="5840" data-ri="0r" data-time="1704875400-1704879000" data-colr="#e8941e" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1560-01-10/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp" /><meta itemprop='startDate' content="2024-1-10T08:30+1:00" /><meta itemprop='endDate' content="2024-1-10T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+				"@id": "event_5840_0",
+				"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+				"eventStatus":"https://schema.org/EventScheduled",
+				"name": "TheVR Happy Hour #1560 - 01.10.",
+				"url": "https://thevr.hu/events/thevr-happy-hour-1560-01-10/var/ri-0.l-L2",
+				"startDate": "2024-1-10T08:30+1:00",
+				"endDate": "2024-1-10T09:30+1:00",
+				"image":"https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp", 
+				"description":"<p><!-- wp:pattern {'slug':'ajde_events/blocks'} /--></p> <p><!-- wp:paragraph --></p> <p><strong>TheVR Happy Hour #1560 &#8211; 01.10. </strong></p> <p><!-- /wp:paragraph --></p> "}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #e8941e;" id="evc_17048754005840" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' data-thumb='https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp' style='background-image:url("https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#e8941e' data-smon='january' data-syr='2024' data-bub=''><span class='evo_start '><em class='date'>10</em><em class='month'>jan</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1560 - 01.10.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'><i class='fa fa-clock-o'></i>08:30 - 09:30</em> </span></span><span class='evoet_data' data-d="{&quot;loc.n&quot;:&quot;&quot;,&quot;orgs&quot;:[],&quot;tags&quot;:[]}" data-bgc="#e8941e" data-bggrad="" ></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Event Details</h3><p>
+
+TheVR Happy Hour #1560 &#8211; 01.10. 
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Event Details</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:pattern {"slug":"ajde_events/blocks"} /--></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>TheVR Happy Hour #1560 &#8211; 01.10. </strong></p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Time</h3><p><span class='evo_eventcard_time_t'>(Wednesday) 08:30 - 09:30</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%231560+-+01.10.&amp;dates=20240110T073000Z/20240110T083000Z&amp;ctz=Europe/Budapest&amp;details=TheVR+Happy+Hour+%231560+-+01.10.&amp;location=' target='_blank' class='evo_ics_gCal' title='Add to google calendar'>GoogleCal</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_5841_0" class="eventon_list_event evo_eventtop scheduled  event event_5841_0" data-event_id="5841" data-ri="0r" data-time="1704961800-1704965400" data-colr="#e8941e" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1561-01-11/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp" /><meta itemprop='startDate' content="2024-1-11T08:30+1:00" /><meta itemprop='endDate' content="2024-1-11T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+				"@id": "event_5841_0",
+				"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+				"eventStatus":"https://schema.org/EventScheduled",
+				"name": "TheVR Happy Hour #1561 - 01.11.",
+				"url": "https://thevr.hu/events/thevr-happy-hour-1561-01-11/var/ri-0.l-L2",
+				"startDate": "2024-1-11T08:30+1:00",
+				"endDate": "2024-1-11T09:30+1:00",
+				"image":"https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp", 
+				"description":"<p><!-- wp:pattern {'slug':'ajde_events/blocks'} /--></p> <p><!-- wp:paragraph --></p> <p><strong>TheVR Happy Hour #1561 &#8211; 01.11. </strong></p> <p><!-- /wp:paragraph --></p> "}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #e8941e;" id="evc_17049618005841" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' data-thumb='https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp' style='background-image:url("https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#e8941e' data-smon='january' data-syr='2024' data-bub=''><span class='evo_start '><em class='date'>11</em><em class='month'>jan</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1561 - 01.11.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'><i class='fa fa-clock-o'></i>08:30 - 09:30</em> </span></span><span class='evoet_data' data-d="{&quot;loc.n&quot;:&quot;&quot;,&quot;orgs&quot;:[],&quot;tags&quot;:[]}" data-bgc="#e8941e" data-bggrad="" ></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Event Details</h3><p>
+
+TheVR Happy Hour #1561 &#8211; 01.11. 
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Event Details</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:pattern {"slug":"ajde_events/blocks"} /--></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>TheVR Happy Hour #1561 &#8211; 01.11. </strong></p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Time</h3><p><span class='evo_eventcard_time_t'>(Thursday) 08:30 - 09:30</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%231561+-+01.11.&amp;dates=20240111T073000Z/20240111T083000Z&amp;ctz=Europe/Budapest&amp;details=TheVR+Happy+Hour+%231561+-+01.11.&amp;location=' target='_blank' class='evo_ics_gCal' title='Add to google calendar'>GoogleCal</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div><div id="event_5842_0" class="eventon_list_event evo_eventtop scheduled  event event_5842_0" data-event_id="5842" data-ri="0r" data-time="1705048200-1705051800" data-colr="#e8941e" itemscope itemtype='http://schema.org/Event'><div class="evo_event_schema" style="display:none" ><a itemprop='url'  href='https://thevr.hu/events/thevr-happy-hour-1562-01-12/var/ri-0.l-L2'></a><meta itemprop='image' content="https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp" /><meta itemprop='startDate' content="2024-1-12T08:30+1:00" /><meta itemprop='endDate' content="2024-1-12T09:30+1:00" /><meta itemprop='eventStatus' content="https://schema.org/EventScheduled" /><item style="display:none" itemprop="eventAttendanceMode" itemscope itemtype="https://schema.org/OfflineEventAttendanceMode"></item><script type="application/ld+json">{"@context": "http://schema.org","@type": "Event",
+				"@id": "event_5842_0",
+				"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+				"eventStatus":"https://schema.org/EventScheduled",
+				"name": "TheVR Happy Hour #1562 - 01.12.",
+				"url": "https://thevr.hu/events/thevr-happy-hour-1562-01-12/var/ri-0.l-L2",
+				"startDate": "2024-1-12T08:30+1:00",
+				"endDate": "2024-1-12T09:30+1:00",
+				"image":"https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp", 
+				"description":"<p><!-- wp:pattern {'slug':'ajde_events/blocks'} /--></p> <p><!-- wp:paragraph --></p> <p><strong>TheVR Happy Hour #1562 &#8211; 01.12.</strong></p> <p><!-- /wp:paragraph --></p> "}</script></div>
+				<p class="desc_trig_outter" style=""><a data-gmap_status="null" data-exlk="0" style="background-color: #e8941e;" id="evc_17050482005842" class="hasFtIMG desc_trig sin_val evcal_list_a" data-ux_val="1" data-ux_val_mob="-"  ><span class='evoet_c1 evoet_cx '><span class='ev_ftImg' data-img='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' data-thumb='https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp' style='background-image:url("https://thevr.hu/wp-content/uploads/2023/01/hh-1-300x169.webp")' ></span></span><span class='evoet_c2 evoet_cx '><span class='evoet_dayblock evcal_cblock ' data-bgcolor='#e8941e' data-smon='january' data-syr='2024' data-bub=''><span class='evo_start '><em class='date'>12</em><em class='month'>jan</em><em class='time'>08:30</em></span><span class='evo_end only_time'><em class='time'>09:30</em></span></span></span><span class='evoet_c3 evoet_cx evcal_desc hide_eventtopdata '><span class='evoet_title evcal_desc2 evcal_event_title' itemprop='name'>TheVR Happy Hour #1562 - 01.12.</span><span class='evoet_subtitle evo_below_title'></span><span class='evoet_time_expand level_3'><em class='evcal_time evo_tz_time'><i class='fa fa-clock-o'></i>08:30 - 09:30</em> </span></span><span class='evoet_data' data-d="{&quot;loc.n&quot;:&quot;&quot;,&quot;orgs&quot;:[],&quot;tags&quot;:[]}" data-bgc="#e8941e" data-bggrad="" ></span></a></p><div class='event_description evcal_eventcard ' style="display:none"><div class='evocard_row'><div id='event_ftimage' class='evocard_box ftimage' data-c='' 
+					style=''><div class='evo_metarow_directimg evcal_evdata_row'><img class='evo_event_main_img' src='https://thevr.hu/wp-content/uploads/2023/01/hh-1.webp' /></div></div></div><div class='evocard_row'><div id='event_eventdetails' class='evocard_box eventdetails' data-c='' 
+					style=''><div class='evo_metarow_details evorow evcal_evdata_row evcal_event_details'>
+								<div class="event_excerpt" style="display:none"><h3 class="padb5 evo_h3">Event Details</h3><p>
+
+TheVR Happy Hour #1562 &#8211; 01.12.
+
+</p></div><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>
+								
+								<div class='evcal_evdata_cell '>
+									<div class='eventon_full_description'>
+										<h3 class='padb5 evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-align-justify'></i></span>Event Details</h3>
+										<div class='eventon_desc_in' itemprop='description'>
+										<p><!-- wp:pattern {"slug":"ajde_events/blocks"} /--></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>TheVR Happy Hour #1562 &#8211; 01.12.</strong></p>
+<p><!-- /wp:paragraph --></p>
+</div><div class='clear'></div>
+									</div>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_time' class='evocard_box time' data-c='' 
+					style=''><div class='evo_metarow_time evorow evcal_evdata_row evcal_evrow_sm '>
+								<span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>
+								<div class='evcal_evdata_cell'>							
+									<h3 class='evo_h3'><span class='evcal_evdata_icons'><i class='fa fa-clock'></i></span>Time</h3><p><span class='evo_eventcard_time_t'>(Friday) 08:30 - 09:30</span></p>
+								</div>
+							</div></div></div><div class='evocard_row'><div id='event_addtocal' class='evocard_box addtocal' data-c='' 
+					style=''><div class='evo_metarow_ICS evorow evcal_evdata_row'>
+									<span class='evcal_evdata_icons'><i class='fa fa-calendar'></i></span>
+									<div class='evcal_evdata_cell'>
+										<p><a href='//www.google.com/calendar/event?action=TEMPLATE&amp;text=TheVR+Happy+Hour+%231562+-+01.12.&amp;dates=20240112T073000Z/20240112T083000Z&amp;ctz=Europe/Budapest&amp;details=TheVR+Happy+Hour+%231562+-+01.12.&amp;location=' target='_blank' class='evo_ics_gCal' title='Add to google calendar'>GoogleCal</a></p>	
+									</div>
+								</div></div></div><div class='evo_card_row_end evcal_close' title='Close'></div></div><div class='clear end'></div></div>
